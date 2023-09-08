@@ -124,6 +124,10 @@ lazy.setup({ ---
 {'nvim-lua/plenary.nvim'},
 {'nvim-telescope/telescope.nvim'},
 -- {'nvim-telescope/telescope-fzf-native.nvim'},
+{'akinsho/toggleterm.nvim'},
+{'tpope/vim-fugitive'},
+{'lewis6991/gitsigns.nvim'},
+{'editorconfig/editorconfig-vim'},
 })
 
 -- ========================================================================== --
@@ -266,3 +270,26 @@ require('nvim-tree').setup({
 vim.keymap.set('n', '<leader>e', '<cmd>NvimTreeToggle<cr>')
 
 -- require('telescope').load_extension('fzf')
+
+---
+-- toggleterm
+---
+require('toggleterm').setup({
+    open_mapping = '<C-g>',
+    direction = 'horizontal',
+    shade_terminals = true,
+    shell = "pwsh",
+})
+
+---
+-- gitsigns
+---
+require('gitsigns').setup({
+    signs = {
+      add = {text = '▎'},
+      change = {text = '▎'},
+      delete = {text = '➤'},
+      topdelete = {text = '➤'},
+      changedelete = {text = '▎'},
+    }
+  })
