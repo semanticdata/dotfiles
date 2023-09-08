@@ -56,4 +56,10 @@ lazy.setup({
 vim.opt.termguicolors = true
 vim.cmd.colorscheme('tokyonight')
 
-require('lualine').setup()
+require('lualine').setup({
+  options = {
+    icons_enabled = false,
+    section_separators = '',
+    component_separators = ''
+  }
+})
