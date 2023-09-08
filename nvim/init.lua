@@ -40,6 +40,28 @@ vim.keymap.set('n', '<F2>', '<cmd>Lexplore<cr>')
 vim.keymap.set('n', '<space><space>', '<F2>', {remap = true}) -- recursive mapping
 
 -- ========================================================================== --
+-- ==                               COMMANDS                               == --
+-- ========================================================================== --
+
+vim.api.nvim_create_user_command('ReloadConfig', 'source $MYVIMRC', {})
+
+local group = vim.api.nvim_create_augroup('user_cmds', {clear = true})
+
+vim.api.nvim_create_autocmd('TextYankPost', {
+  desc = 'Highlight on yank',
+  group = group,
+  callback = function()
+    vim.highlight.on_yank({higroup = 'Visual', timeout = 200})
+  end,
+})
+
+vim.api.nvim_create_autocmd('FileType', {
+  pattern = {'help', 'man'},
+  group = group,
+  command = 'nnoremap <buffer> q <cmd>quit<cr>'
+})
+
+-- ========================================================================== --
 -- ==                               PLUGINS                                == --
 -- ========================================================================== --
 
@@ -102,7 +124,9 @@ require('lualine').setup({
   },
 })
 
+---
 -- NETRW
+---
 vim.g.netrw_banner = 0 -- hides banner
 vim.g.netrw_winsize = 30 -- resize the window
 vim.g.netrw_liststyle = 3
@@ -110,28 +134,3 @@ vim.g.netrw_browse_split = 4
 vim.g.netrw_altv = 1
 vim.g.netrw_keepdir = 0
 vim.g.netrw_localcopydircmd = 'cp -r'
-
-local augroup = vim.api.nvim_create_augroup('user_cmds', {clear = true})
-
-vim.api.nvim_create_autocmd('FileType', {
-  pattern = {'help', 'man'},
-  group = augroup,
-  desc = 'Use q to close the window',
-  command = 'nnoremap <buffer> q <cmd>quit<cr>'
-})
-
-vim.api.nvim_create_autocmd('TextYankPost', {
-  group = augroup,
-  desc = 'Highlight on yank',
-  callback = function(event)
-    vim.highlight.on_yank({higroup = 'Visual', timeout = 200})
-  end
-})
-
-local load = function(mod)
-  package.loaded[mod] = nil
-  require(mod)
-end
-
-load('user.settings')
-load('user.keymaps')
