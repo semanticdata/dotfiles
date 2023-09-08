@@ -7,18 +7,19 @@
 
 ### Git Ignores
 
-- [hugo](hugo.gitignore)
-- [jekyll](jekyll.gitignore)
-- [lua](lua.gitignore)
-- [zola](zola.gitignore)
+- [hugo](github/hugo.gitignore)
+- [jekyll](github/jekyll.gitignore)
+- [lua](github/lua.gitignore)
+- [zola](github/zola.gitignore)
+
+## NeoVim
+
+- [init.vim](nvim/init.vim)
+- [plug.vim](nvim-data/site/autoload/plug.vim)
+- [coc-settings.json](nvim/coc-settings.json)
 
 ## Other Apps
 
 - [mpv player](mpv.toml)
 - [obsidian-publisher](obsidian-publisher.json)
 
-## Work In Progress
-
-- [.gvimrc](.gvimrc)
-- [.vimrc](.vimrc)
-- [init.vim](init.vim)
