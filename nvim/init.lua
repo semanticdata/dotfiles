@@ -1,25 +1,50 @@
-vim.opt.number  =  true -- show line numbers in gutter
-vim.opt.mouse  =  'a' -- enable using the mouse
-vim.opt.ignorecase  =  true -- ignore case when searching
-vim.opt.smartcase  =  true -- ignore uppercase unless it exists
-vim.opt.hlsearch  =  false -- disable highlights from previous search
-vim.opt.wrap  =  true -- wrap long lines to be always visible
-vim.opt.breakindent  =  true -- preserve virtual line indent
-vim.opt.tabstop  =  2 -- number of spaces used for Tab
-vim.opt.shiftwidth  =  2 -- characters used to indent line
-vim.opt.expandtab  =  false -- transform tabs into spaces
+-- ========================================================================== --
+-- ==                           EDITOR SETTINGS                            == --
+-- ========================================================================== --
 
--- vim.keymap.set('n', '<space>w', '<cmd>write<cr>', {desc  =  'Save'}) -- Space w to save file
-vim.g.mapleader  =  ' ' -- used in the next line, can use ' ' ','
+vim.opt.number = true
+vim.opt.mouse = 'a'
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.hlsearch = false
+vim.opt.wrap = true
+vim.opt.breakindent = true
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = false
+
+-- ========================================================================== --
+-- ==                             KEYBINDINGS                              == --
+-- ========================================================================== --
+
+vim.g.mapleader = ' ' -- Space as leader key
+
+-- Shortcuts
+vim.keymap.set({'n', 'x', 'o'}, '<leader>h', '^')
+vim.keymap.set({'n', 'x', 'o'}, '<leader>l', 'g_')
+vim.keymap.set('n', '<leader>a', ':keepjumps normal! ggVG<cr>')
+
+-- Basic clipboard interaction
+vim.keymap.set({'n', 'x'}, 'cp', '"+y') -- copy
+vim.keymap.set({'n', 'x'}, 'cv', '"+p') -- paste
+
+-- Delete text
+vim.keymap.set({'n', 'x'}, 'x', '"_x') -- delete text without changing internal registers
+
+-- Commands
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>') -- <leader> + w to save file
-vim.keymap.set({'n', 'x'}, 'cp', '"+y') -- copy to clipboard
-vim.keymap.set({'n', 'x'}, 'cv', '"+p') -- paste from clipboard
-vim.keymap.set({'n', 'x'}, 'x', '"_x') -- modify x to delete etxt without changing internal registers
 vim.keymap.set('n', '<leader>a', ':keepjumps normal! ggVG<cr>') -- select all in current buffer
+vim.keymap.set('n', '<leader>bq', '<cmd>bdelete<cr>')
+vim.keymap.set('n', '<leader>bl', '<cmd>buffer #<cr>')
 vim.keymap.set('n', '<F2>', '<cmd>Lexplore<cr>')
 vim.keymap.set('n', '<space><space>', '<F2>', {remap = true}) -- recursive mapping
 
+-- ========================================================================== --
+-- ==                               PLUGINS                                == --
+-- ========================================================================== --
+
 local lazy  =  {}
+
 function lazy.install(path)
   if not vim.loop.fs_stat(path) then
     print('Installing lazy.nvim....')
@@ -50,18 +75,31 @@ lazy.setup({
   -- List of plugins
   ---
   {'folke/tokyonight.nvim'},
+  {'kyazdani42/nvim-web-devicons'},
   {'nvim-lualine/lualine.nvim'},
 })
 
+-- ========================================================================== --
+-- ==                         PLUGIN CONFIGURATION                         == --
+-- ========================================================================== --
+
+---
+-- Colorscheme
+---
 vim.opt.termguicolors  =  true
 vim.cmd.colorscheme('tokyonight')
 
+---
+-- lualine.nvim (statusline)
+---
+vim.opt.showmode = false
 require('lualine').setup({
-  options  =  {
-    icons_enabled  =  false,
-    section_separators  =  '',
-    component_separators  =  ''
-  }
+  options = {
+    icons_enabled = false,
+    theme = 'tokyonight',
+    component_separators = '|',
+    section_separators = '',
+  },
 })
 
 -- NETRW
@@ -89,3 +127,11 @@ vim.api.nvim_create_autocmd('TextYankPost', {
     vim.highlight.on_yank({higroup = 'Visual', timeout = 200})
   end
 })
+
+local load = function(mod)
+  package.loaded[mod] = nil
+  require(mod)
+end
+
+load('user.settings')
+load('user.keymaps')
