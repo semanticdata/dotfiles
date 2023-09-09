@@ -259,15 +259,17 @@ require('indent_blankline').setup({
 ---
 require('nvim-treesitter.configs').setup({
   highlight = {
-    enable = true
+    enable = false
   },
   ensure_installed = {
     'javascript',
-    'typescript',
-    'tsx',
+    'vim',
+    'html',
     'css',
-    'json',
     'lua',
+    -- 'typescript',
+    -- 'tsx',
+    -- 'json',
   },
 })
 
@@ -292,12 +294,6 @@ require('nvim-treesitter.configs').setup({
   },
   ensure_installed = {
     --- parsers....
-    'javascript',
-    'typescript',
-    'tsx',
-    'css',
-    'json',
-    'lua',
   },
 })
 
