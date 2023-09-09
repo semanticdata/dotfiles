@@ -24,7 +24,6 @@
 ### Plugins
 
 - `nvim --headless "+Lazy! sync" +qa`
-- `catppuccin/nvim', { 'as': 'catppuccin' }`
 
 ### Keybindings
 
