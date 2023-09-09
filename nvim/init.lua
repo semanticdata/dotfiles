@@ -34,6 +34,61 @@ vim.opt.scrolloff=3
 vim.opt.backspace=indent,eol,start
 
 -- ========================================================================== --
+-- ==                               PLUGINS                                == --
+-- ========================================================================== --
+
+local lazy = {}
+
+function lazy.install(path)
+  if not vim.loop.fs_stat(path) then
+    print('Installing lazy.nvim....')
+    vim.fn.system({
+      'git',
+      'clone',
+      '--filter=blob:none',
+      'https://github.com/folke/lazy.nvim.git',
+      '--branch=stable', -- latest stable release
+      path,
+    })
+  end
+end
+
+function lazy.setup(plugins)
+  -- You can "comment out" the line below after lazy.nvim is installed
+  lazy.install(lazy.path)
+
+  vim.opt.rtp:prepend(lazy.path)
+  require('lazy').setup(plugins, lazy.opts)
+end
+
+lazy.path = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
+lazy.opts = {}
+
+lazy.setup({
+  { 'folke/tokyonight.nvim' },
+  { 'kyazdani42/nvim-web-devicons' },
+  { 'nvim-lualine/lualine.nvim' },
+  { 'akinsho/bufferline.nvim' },
+  { 'lukas-reineke/indent-blankline.nvim' },
+  { 'nvim-treesitter/nvim-treesitter' },
+  { 'nvim-treesitter/nvim-treesitter-textobjects' },
+  { 'numToStr/Comment.nvim' },
+  { 'kyazdani42/nvim-tree.lua' },
+  { 'nvim-lua/plenary.nvim' },
+  { 'akinsho/toggleterm.nvim' },
+  { 'tpope/vim-fugitive' },
+  { 'lewis6991/gitsigns.nvim' },
+  { 'editorconfig/editorconfig-vim' },
+  -- { 'nvim-telescope/telescope.nvim', module = "telescope" },
+  { 'nvim-telescope/telescope.nvim', tag = '0.1.2', dependencies = { 'nvim-lua/plenary.nvim' }},
+  -- {'tpope/vim-surround'}, -- manipulate surrounding patterns '"`<[{(' -- not configured
+  -- {'nvim-telescope/telescope-fzf-native.nvim'}, -- not configured, needs c compiler
+  { 'wellle/targets.vim' },
+  { 'ThePrimeagen/vim-be-good' },
+  { 'ap/vim-css-color' },
+})
+
+-- ========================================================================== --
 -- ==                             KEYBINDINGS                              == --
 -- ========================================================================== --
 
@@ -68,6 +123,12 @@ vim.keymap.set('n', '<leader>ff', '<cmd>Telescope find_files<cr>')
 vim.keymap.set('n', '<leader>fg', '<cmd>Telescope live_grep<cr>')
 vim.keymap.set('n', '<leader>fd', '<cmd>Telescope diagnostics<cr>')
 vim.keymap.set('n', '<leader>fs', '<cmd>Telescope current_buffer_fuzzy_find<cr>')
+
+local builtin = require('telescope.builtin')
+vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
+vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 
 -- Moving Vertically
 vim.keymap.set('n', '<C-d>', '<C-d>zz')
@@ -127,60 +188,6 @@ vim.api.nvim_create_autocmd('FileType', {
   pattern = { 'help', 'man' },
   group = group,
   command = 'nnoremap <buffer> q <cmd>quit<cr>'
-})
-
--- ========================================================================== --
--- ==                               PLUGINS                                == --
--- ========================================================================== --
-
-local lazy = {}
-
-function lazy.install(path)
-  if not vim.loop.fs_stat(path) then
-    print('Installing lazy.nvim....')
-    vim.fn.system({
-      'git',
-      'clone',
-      '--filter=blob:none',
-      'https://github.com/folke/lazy.nvim.git',
-      '--branch=stable', -- latest stable release
-      path,
-    })
-  end
-end
-
-function lazy.setup(plugins)
-  -- You can "comment out" the line below after lazy.nvim is installed
-  lazy.install(lazy.path)
-
-  vim.opt.rtp:prepend(lazy.path)
-  require('lazy').setup(plugins, lazy.opts)
-end
-
-lazy.path = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
-lazy.opts = {}
-
-lazy.setup({
-  { 'folke/tokyonight.nvim' },
-  { 'kyazdani42/nvim-web-devicons' },
-  { 'nvim-lualine/lualine.nvim' },
-  { 'akinsho/bufferline.nvim' },
-  { 'lukas-reineke/indent-blankline.nvim' },
-  { 'nvim-treesitter/nvim-treesitter' },
-  { 'nvim-treesitter/nvim-treesitter-textobjects' },
-  { 'numToStr/Comment.nvim' },
-  { 'kyazdani42/nvim-tree.lua' },
-  { 'nvim-lua/plenary.nvim' },
-  { 'akinsho/toggleterm.nvim' },
-  { 'tpope/vim-fugitive' },
-  { 'lewis6991/gitsigns.nvim' },
-  { 'editorconfig/editorconfig-vim' },
-  { 'nvim-telescope/telescope.nvim' },
-  -- {'tpope/vim-surround'}, -- manipulate surrounding patterns '"`<[{(' -- not configured
-  -- {'nvim-telescope/telescope-fzf-native.nvim'}, -- not configured, needs c compiler
-  { 'wellle/targets.vim' },
-  { 'ThePrimeagen/vim-be-good' },
-  { 'ap/vim-css-color' },
 })
 
 -- ========================================================================== --
