@@ -79,13 +79,11 @@ lazy.setup({
   { 'tpope/vim-fugitive' },
   { 'lewis6991/gitsigns.nvim' },
   { 'editorconfig/editorconfig-vim' },
-  -- { 'nvim-telescope/telescope.nvim', module = "telescope" },
-  { 'nvim-telescope/telescope.nvim', tag = '0.1.2', dependencies = { 'nvim-lua/plenary.nvim' }},
-  -- {'tpope/vim-surround'}, -- manipulate surrounding patterns '"`<[{(' -- not configured
-  -- {'nvim-telescope/telescope-fzf-native.nvim'}, -- not configured, needs c compiler
+  { 'nvim-telescope/telescope.nvim' },
   { 'wellle/targets.vim' },
   { 'ThePrimeagen/vim-be-good' },
   { 'ap/vim-css-color' },
+  -- {'nvim-telescope/telescope-fzf-native.nvim'}, -- needs c compiler
 })
 
 -- ========================================================================== --
