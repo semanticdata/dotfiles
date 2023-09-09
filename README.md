@@ -23,8 +23,11 @@
 
 ### Plugins
 
-- `nvim --headless "+Lazy! sync" +qa`
+**Sync from CLI**
 
+```pwsh
+nvim --headless "+Lazy! sync" +qa
+```
 ### Keybindings
 
 - Standard
