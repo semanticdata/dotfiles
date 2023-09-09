@@ -12,6 +12,26 @@ vim.opt.breakindent = true
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = false
+vim.opt.background=dark
+vim.opt.clipboard=unnamedplus
+vim.opt.cursorline=true
+vim.opt.hidden=true
+vim.opt.inccommand=split
+vim.opt.relativenumber=true
+vim.opt.title=true
+vim.opt.ttimeoutlen=0
+vim.opt.wildmenu=true
+vim.opt.ruler=true
+vim.opt.shortmess=atI
+vim.opt.showmode=true
+vim.opt.incsearch=true
+vim.opt.laststatus=2
+vim.opt.showcmd=true
+vim.opt.ttyfast=true
+vim.opt.gdefault=true
+vim.opt.encoding="utf-8"
+vim.opt.scrolloff=3
+vim.opt.backspace=indent,eol,start
 
 -- ========================================================================== --
 -- ==                             KEYBINDINGS                              == --
@@ -48,6 +68,44 @@ vim.keymap.set('n', '<leader>ff', '<cmd>Telescope find_files<cr>')
 vim.keymap.set('n', '<leader>fg', '<cmd>Telescope live_grep<cr>')
 vim.keymap.set('n', '<leader>fd', '<cmd>Telescope diagnostics<cr>')
 vim.keymap.set('n', '<leader>fs', '<cmd>Telescope current_buffer_fuzzy_find<cr>')
+
+-- Moving Vertically
+vim.keymap.set('n', '<C-d>', '<C-d>zz')
+vim.keymap.set('n', '<C-u>', '<C-u>zz')
+vim.keymap.set('n', 'n', 'nzzzv')
+vim.keymap.set('n', 'N', 'Nzzzv')
+
+-- Normal Mode
+vim.keymap.set('n', '<C-q>', ':q!<CR>')
+vim.keymap.set('n', '<F4>', ':bd<CR>')
+
+-- Tabs Mappings
+vim.keymap.set('n', '<S-Tab>', 'gT')
+vim.keymap.set('n', '<Tab>', 'gt')
+vim.keymap.set('n', '<silent> <S-t>', ':tabnew<CR>')
+
+-- Pane Movements
+vim.keymap.set('n', '<C-h>', '<C-w>h')
+vim.keymap.set('n', '<C-j>', '<C-w>j')
+vim.keymap.set('n', '<C-k>', '<C-w>k')
+vim.keymap.set('n', '<C-l>', '<C-w>l')
+
+vim.keymap.set('n', '<C-left>', '<C-w>h')
+vim.keymap.set('n', '<C-down>', '<C-w>j')
+vim.keymap.set('n', '<C-up>', '<C-w>k')
+vim.keymap.set('n', '<C-right>', '<C-w>l')
+
+-- Terminal
+vim.keymap.set('n', '<A-t>', ':sp term://pwsh<CR>i')
+vim.keymap.set('n', 'tv', ':lcd %:p:h<CR>:vsp term://pwsh<CR>i')
+vim.keymap.set('n', 'th', ':lcd %:p:h<CR>:sp term://pwsh<CR>i')
+
+-- Terminal go back to normal mode
+vim.keymap.set('n', '<Esc>', '<C-\\><C-n>')
+vim.keymap.set('n', ':q!', '<C-\\><C-n>:q!<CR>')
+
+-- NVIM-TREE
+vim.keymap.set('n', '<leader>e', '<cmd>NvimTreeToggle<cr>')
 
 -- ========================================================================== --
 -- ==                               COMMANDS                               == --
@@ -121,6 +179,8 @@ lazy.setup({
   -- {'tpope/vim-surround'}, -- manipulate surrounding patterns '"`<[{(' -- not configured
   -- {'nvim-telescope/telescope-fzf-native.nvim'}, -- not configured, needs c compiler
   { 'wellle/targets.vim' },
+  { 'ThePrimeagen/vim-be-good' },
+  { 'ap/vim-css-color' },
 })
 
 -- ========================================================================== --
@@ -128,13 +188,13 @@ lazy.setup({
 -- ========================================================================== --
 
 ---
--- Colorscheme
+-- COLORSCHEME
 ---
 vim.opt.termguicolors = true
 vim.cmd.colorscheme('tokyonight')
 
 ---
--- lualine.nvim (statusline)
+-- LUALINE.nvim (statusline)
 ---
 vim.opt.showmode = false
 require('lualine').setup({
@@ -150,18 +210,17 @@ require('lualine').setup({
 })
 
 ---
--- NETRW
+-- NETRW (file browser)
 ---
-vim.g.netrw_banner = 0   -- hides banner
-vim.g.netrw_winsize = 30 -- resize the window
-vim.g.netrw_liststyle = 3
+vim.g.netrw_banner = 0
+vim.g.netrw_winsize = 25
 vim.g.netrw_browse_split = 4
 vim.g.netrw_altv = 1
 vim.g.netrw_keepdir = 0
 vim.g.netrw_localcopydircmd = 'cp -r'
 
 ---
--- bufferline
+-- BUFFERLINE
 ---
 require('bufferline').setup({
   options = {
@@ -185,7 +244,7 @@ require('bufferline').setup({
 })
 
 ---
--- indent-blankline
+-- INDENT-BLANKLINE
 ---
 require('indent_blankline').setup({
   char = '▏',
@@ -196,14 +255,14 @@ require('indent_blankline').setup({
 })
 
 ---
--- treesitter
+-- TREESITTER
 ---
 require('nvim-treesitter.configs').setup({
   highlight = {
-    enable = false   -- note this is turned off
+    enable = true
   },
   ensure_installed = {
-    'javascript', -- these are still installed
+    'javascript',
     'typescript',
     'tsx',
     'css',
@@ -213,7 +272,7 @@ require('nvim-treesitter.configs').setup({
 })
 
 ---
--- treesitter-textobjects-modules
+-- TREESITTER-TEXTOBJECTS-MODULES
 ---
 require('nvim-treesitter.configs').setup({
   highlight = {
@@ -233,16 +292,17 @@ require('nvim-treesitter.configs').setup({
   },
   ensure_installed = {
     --- parsers....
+    'javascript',
+    'typescript',
+    'tsx',
+    'css',
+    'json',
+    'lua',
   },
 })
 
 ---
--- comment.nvim
----
-require('Comment').setup({})
-
----
--- nvim-tree
+-- NVIM-TREE
 ---
 require('nvim-tree').setup({
   hijack_cursor = false,
@@ -260,10 +320,8 @@ require('nvim-tree').setup({
   end
 })
 
-vim.keymap.set('n', '<leader>e', '<cmd>NvimTreeToggle<cr>')
-
 ---
--- toggleterm
+-- TOGGLETERM
 ---
 require('toggleterm').setup({
   open_mapping = '<C-g>',
@@ -273,7 +331,7 @@ require('toggleterm').setup({
 })
 
 ---
--- gitsigns
+-- GITSIGNS
 ---
 require('gitsigns').setup({
   signs = {
@@ -285,4 +343,12 @@ require('gitsigns').setup({
   }
 })
 
+---
+-- COMMENT.NVIM
+---
+require('Comment').setup({})
+
+---
+-- TELESCOPE-FZF
+---
 -- require('telescope').load_extension('fzf')
