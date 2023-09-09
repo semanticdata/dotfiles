@@ -13,7 +13,6 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = false
 
-
 -- ========================================================================== --
 -- ==                             KEYBINDINGS                              == --
 -- ========================================================================== --
@@ -37,7 +36,6 @@ vim.keymap.set({ 'n', 'x' }, 'x', '"_x')
 vim.keymap.set('n', '<leader>w', '<cmd>write<cr>')
 vim.keymap.set('n', '<leader>bq', '<cmd>bdelete<cr>')
 vim.keymap.set('n', '<leader>bl', '<cmd>buffer #<cr>')
-
 vim.keymap.set('n', '<F2>', '<cmd>Lexplore<cr>')
 vim.keymap.set('n', '<space><space>', '<F2>', {
   remap = true
@@ -72,7 +70,6 @@ vim.api.nvim_create_autocmd('FileType', {
   group = group,
   command = 'nnoremap <buffer> q <cmd>quit<cr>'
 })
-
 
 -- ========================================================================== --
 -- ==                               PLUGINS                                == --
@@ -126,7 +123,6 @@ lazy.setup({
   { 'wellle/targets.vim' },
 })
 
-
 -- ========================================================================== --
 -- ==                         PLUGIN CONFIGURATION                         == --
 -- ========================================================================== --
@@ -136,7 +132,6 @@ lazy.setup({
 ---
 vim.opt.termguicolors = true
 vim.cmd.colorscheme('tokyonight')
-
 
 ---
 -- lualine.nvim (statusline)
@@ -164,6 +159,7 @@ vim.g.netrw_browse_split = 4
 vim.g.netrw_altv = 1
 vim.g.netrw_keepdir = 0
 vim.g.netrw_localcopydircmd = 'cp -r'
+
 ---
 -- bufferline
 ---
@@ -207,7 +203,7 @@ require('nvim-treesitter.configs').setup({
     enable = false   -- note this is turned off
   },
   ensure_installed = {
-    'javascript',
+    'javascript', -- these are still installed
     'typescript',
     'tsx',
     'css',
@@ -266,8 +262,6 @@ require('nvim-tree').setup({
 
 vim.keymap.set('n', '<leader>e', '<cmd>NvimTreeToggle<cr>')
 
--- require('telescope').load_extension('fzf')
-
 ---
 -- toggleterm
 ---
@@ -290,3 +284,5 @@ require('gitsigns').setup({
     changedelete = { text = '▎' },
   }
 })
+
+-- require('telescope').load_extension('fzf')
