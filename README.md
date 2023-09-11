@@ -1,5 +1,7 @@
 # dotfiles
 
+* [GitHub](/#GitHub)
+
 ## GitHub
 
 - [.gitattributes](.gitattributes)
@@ -9,17 +11,17 @@
 - [lua](https://www.lua.org/) → [.gitignore](github/lua.gitignore)
 - [zola](https://www.getzola.org/) → [.gitignore](github/zola.gitignore)
 
-## Obsidian
-
-- [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) → [Configuration](obsidian-publisher.json)
-
 ## Other Apps
 
-- [mpv](https://mpv.io/) → [Configuration](mpv.toml)
+- [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) → [Configuration](others/obsidian-publisher.json)
+- [mpv](https://mpv.io/) → [Configuration](others/mpv.toml)
+- [alacritty](https://github.com/alacritty/alacritty) → [Configuration](others/alacritty.yml)
 
 ## NeoVim
 
-- [init.lua](nvim/init.lua)
+**Configuration** → [init.lua](nvim/init.lua)
+
+**Sync from CLI** → `nvim --headless "+Lazy! sync" +qa`
 
 ### Keybindings
 
@@ -77,14 +79,6 @@ vim.keymap.set('n', '<silent> <S-t>', ':tabnew<CR>')
   - `th` = `:lcd %:p:h<CR>:sp term://pwsh<CR>i`
   - `<Esc>` = `<C-\\><C-n>`
   - `:q!` `<C-\\><C-n>:q!<CR>`
-
-### Commands
-
-**Sync from CLI**
-
-```pwsh
-nvim --headless "+Lazy! sync" +qa
-```
 
 ### Plugins
 
