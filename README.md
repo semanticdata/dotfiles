@@ -41,8 +41,18 @@
 - Telescope
   - `<leader><space>` = `<cmd>Telescope buffers<cr>`
   - `<leader>?` = `<cmd>Telescope oldfiles<cr>`
-- Standard
+- Normal Mode
+  - `<C-q>` = `:q!<CR>`
+  - `<F4>` = `:bd<CR>`
+- Moving Vertically
+  - `<C-d>` = `<C-d>zz`
+  - `<C-u>` = `<C-u>zz`
+  - `n` = `nzzzv`
+  - `N` = `Nzzzv`
 - Tab Navigation
+vim.keymap.set('n', '<S-Tab>', 'gT')
+vim.keymap.set('n', '<Tab>', 'gt')
+vim.keymap.set('n', '<silent> <S-t>', ':tabnew<CR>')
 - Pane/Window Navigation
   - `<C-h>` = `<C-w>h`
   - `<C-j>` = `<C-w>j`
