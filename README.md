@@ -23,6 +23,7 @@
 
 ### Keybindings
 
+- <leader> -> ' ' (space)
 - Standard
 - Tab Navigation
 - Pane/Window Navigation
