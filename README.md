@@ -28,6 +28,7 @@
   - `<leader>h` = `^`
   - `<leader>l` = `g_`
   - `<leader>l` = `:keepjumps normal! ggVG<CR>`
+  - `gy` = `"+y``
 - Standard
 - Tab Navigation
 - Pane/Window Navigation
