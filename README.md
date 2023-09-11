@@ -41,6 +41,15 @@
 - Telescope
   - `<leader><space>` = `<cmd>Telescope buffers<cr>`
   - `<leader>?` = `<cmd>Telescope oldfiles<cr>`
+  - `<leader>ff` = `<cmd>Telescope find_files<cr>`
+  - `<leader>fg` = `<cmd>Telescope live_grep<cr>`
+  - `<leader>fd` = `<cmd>Telescope diagnostics<cr>`
+  - `<leader>fs` = `<cmd>Telescope current_buffer_fuzzy_find<cr>`
+- Telescope (builtin)
+  - `<leader>ff` = `builtin.find_files, {}`
+  - `<leader>fg` = `builtin.live_grep, {}`
+  - `<leader>fb` = `builtin.buffers, {}`
+  - `<leader>fh` = `builtin.help_tags, {}`
 - Normal Mode
   - `<C-q>` = `:q!<CR>`
   - `<F4>` = `:bd<CR>`
@@ -50,9 +59,9 @@
   - `n` = `nzzzv`
   - `N` = `Nzzzv`
 - Tab Navigation
-  - `<S-Tab>` = `gT`
-  - `<Tab>` = `gt`
-  - `<silent> <S-t>` = `:tabnew<CR>`
+vim.keymap.set('n', '<S-Tab>', 'gT')
+vim.keymap.set('n', '<Tab>', 'gt')
+vim.keymap.set('n', '<silent> <S-t>', ':tabnew<CR>')
 - Pane/Window Navigation
   - `<C-h>` = `<C-w>h`
   - `<C-j>` = `<C-w>j`
