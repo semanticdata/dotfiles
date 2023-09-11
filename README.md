@@ -61,9 +61,9 @@
   - `n` = `nzzzv`
   - `N` = `Nzzzv`
 - Tab Navigation
-vim.keymap.set('n', '<S-Tab>', 'gT')
-vim.keymap.set('n', '<Tab>', 'gt')
-vim.keymap.set('n', '<silent> <S-t>', ':tabnew<CR>')
+  - `<S-Tab>` = `gT`
+  - `<Tab>` = `gt`
+  - `<silent <S-t>` = `:tabnew<CR>`
 - Pane/Window Navigation
   - `<C-h>` = `<C-w>h`
   - `<C-j>` = `<C-w>j`
@@ -81,6 +81,10 @@ vim.keymap.set('n', '<silent> <S-t>', ':tabnew<CR>')
   - `:q!` `<C-\\><C-n>:q!<CR>`
 
 ### Plugins
+
+| Plugin | Author | Configure | Description |
+| ------ | ------ | --------- | ----------- |
+| Tokyo Night | folke | `folke/tokyonight.nvim | Theme |
 
 - [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 - [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)
