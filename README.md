@@ -11,11 +11,11 @@
 
 ## Obsidian
 
-- [obsidian-publisher](obsidian-publisher.json)
+- [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) → [Configuration](obsidian-publisher.json)
 
 ## Other Apps
 
-- [mpv player](mpv.toml)
+- [mpv](https://mpv.io/) → [Configuration](mpv.toml)
 
 ## NeoVim
 
