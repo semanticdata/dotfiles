@@ -27,8 +27,21 @@
 - Unsorted
   - `<leader>h` = `^`
   - `<leader>l` = `g_`
-  - `<leader>l` = `:keepjumps normal! ggVG<CR>`
-  - `gy` = `"+y``
+  - `<leader>a` = `:keepjumps normal! ggVG<cr>`
+  - `gy` = `"+y`
+  - `gp` = `"+p`
+  - `x` = `"_x`
+- Commands
+  - `<leader>w` = `<cmd>write<cr>`
+  - `<leader>bq` = `<cmd>bdelete<cr>`
+  - `<leader>bl` = `<cmd>buffer #<cr>`
+  - `<F2>` = `<cmd>Lexplore<cr>`
+  - `<space><space>` = `<F2>`
+- Telescope
+  - `<leader><space>` = `<cmd>Telescope buffers<cr>`
+  - `<leader>?` = `<cmd>Telescope oldfiles<cr>`
+
+
 - Standard
 - Tab Navigation
 - Pane/Window Navigation
