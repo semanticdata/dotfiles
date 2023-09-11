@@ -50,9 +50,9 @@
   - `n` = `nzzzv`
   - `N` = `Nzzzv`
 - Tab Navigation
-vim.keymap.set('n', '<S-Tab>', 'gT')
-vim.keymap.set('n', '<Tab>', 'gt')
-vim.keymap.set('n', '<silent> <S-t>', ':tabnew<CR>')
+  - `<S-Tab>` = `gT`
+  - `<Tab>` = `gt`
+  - `<silent> <S-t>` = `:tabnew<CR>`
 - Pane/Window Navigation
   - `<C-h>` = `<C-w>h`
   - `<C-j>` = `<C-w>j`
