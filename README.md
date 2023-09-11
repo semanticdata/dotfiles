@@ -23,7 +23,11 @@
 
 ### Keybindings
 
-- <leader> -> ' ' (space)
+- `<leader>` = `<space>`
+- Unsorted
+  - `<leader>h` = `^`
+  - `<leader>l` = `g_`
+  - `<leader>l` = `:keepjumps normal! ggVG<CR>`
 - Standard
 - Tab Navigation
 - Pane/Window Navigation
