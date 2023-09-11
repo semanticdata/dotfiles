@@ -44,14 +44,14 @@
 - Standard
 - Tab Navigation
 - Pane/Window Navigation
-- `<C-h>` = `<C-w>h`
-- `<C-j>` = `<C-w>j`
-- `<C-k>` = `<C-w>k`
-- `<C-l>` = `<C-w>l`
-- `<C-left>` = `<C-w>h`
-- `<C-down>` = `<C-w>j`
-- `<C-up>` = `<C-w>k`
-- `<C-right>` = `<C-w>l`
+  - `<C-h>` = `<C-w>h`
+  - `<C-j>` = `<C-w>j`
+  - `<C-k>` = `<C-w>k`
+  - `<C-l>` = `<C-w>l`
+  - `<C-left>` = `<C-w>h`
+  - `<C-down>` = `<C-w>j`
+  - `<C-up>` = `<C-w>k`
+  - `<C-right>` = `<C-w>l`
 - Terminal
   - `<A-t>` = `:sp term://pwsh<cr>i`
   - `tv` = `:lcd %:p:h<CR>:vsp term://pwsh<CR>i`
