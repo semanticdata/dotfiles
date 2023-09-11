@@ -4,10 +4,10 @@
 
 - [.gitattributes](.gitattributes)
 - [.gitignore](.gitignore)
-- [hugo](github/hugo.gitignore)
-- [jekyll](github/jekyll.gitignore)
-- [lua](github/lua.gitignore)
-- [zola](github/zola.gitignore)
+- [hugo](https://gohugo.io/) → [.gitignore](github/hugo.gitignore)
+- [jekyll](https://jekyllrb.com/) → [.gitignore](github/jekyll.gitignore)
+- [lua](https://www.lua.org/) → [.gitignore](github/lua.gitignore)
+- [zola](https://www.getzola.org/) →[.gitignore](github/zola.gitignore)
 
 ## Obsidian
 
