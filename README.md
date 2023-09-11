@@ -31,6 +31,7 @@
   - `gy` = `"+y`
   - `gp` = `"+p`
   - `x` = `"_x`
+  - `<leader>e` = `<cmd>NvimTreeToggle<cr>`
 - Commands
   - `<leader>w` = `<cmd>write<cr>`
   - `<leader>bq` = `<cmd>bdelete<cr>`
@@ -46,6 +47,11 @@
 - Tab Navigation
 - Pane/Window Navigation
 - Terminal
+  - `<A-t>` = `:sp term://pwsh<cr>i`
+  - `tv` = `:lcd %:p:h<CR>:vsp term://pwsh<CR>i`
+  - `th` = `:lcd %:p:h<CR>:sp term://pwsh<CR>i`
+  - `<Esc>` = `<C-\\><C-n>`
+  - `:q!` `<C-\\><C-n>:q!<CR>`
 
 ### Commands
 
