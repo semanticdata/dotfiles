@@ -1,6 +1,5 @@
 # dotfiles
 
-- [dotfiles](#dotfiles)
   - [GitHub](#github)
   - [Other Apps](#other-apps)
   - [NeoVim](#neovim)
@@ -9,18 +8,22 @@
 
 ## GitHub
 
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
-- [hugo](https://gohugo.io/) → [.gitignore](github/hugo.gitignore)
-- [jekyll](https://jekyllrb.com/) → [.gitignore](github/jekyll.gitignore)
-- [lua](https://www.lua.org/) → [.gitignore](github/lua.gitignore)
-- [zola](https://www.getzola.org/) → [.gitignore](github/zola.gitignore)
+|  |  |
+| --- | --- |
+| [.gitattributes](.gitattributes) |
+| [.gitignore](.gitignore) |
+| [hugo](https://gohugo.io/) | [.gitignore](github/hugo.gitignore) |
+| [jekyll](https://jekyllrb.com/) | [.gitignore](github/jekyll.gitignore) |
+| [lua](https://www.lua.org/) | [.gitignore](github/lua.gitignore) |
+| [zola](https://www.getzola.org/) | [.gitignore](github/zola.gitignore) |
 
 ## Other Apps
 
-- [alacritty](https://github.com/alacritty/alacritty) → [Configuration](others/alacritty.yml)
-- [mpv](https://mpv.io/) → [Configuration](others/mpv.toml)
-- [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) → [Configuration](others/obsidian-publisher.json)
+| App or Plugin | Configurations |
+| --- | --- |
+| [alacritty](https://github.com/alacritty/alacritty) | [Configuration](others/alacritty.yml) |
+| [mpv](https://mpv.io/) | [Configuration](others/mpv.toml) |
+| [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) | [Configuration](others/obsidian-publisher.json) |
 
 ## NeoVim
 
