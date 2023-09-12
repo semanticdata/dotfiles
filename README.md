@@ -88,10 +88,10 @@
 
 | Author/Plugin                                                                                                 | Description |
 | ------------------------------------------------------------------------------------------------------------- | ----------- |
-| [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim)                                         | .           |
-| [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)                                         | .           |
-| [ap/vim-css-color](https://github.com/ap/vim-css-color)                                                       | .           |
-| [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim)                             | .           |
+| [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim)                                         | A snazzy bufferline for Neovim.           |
+| [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)                                         | A neovim lua plugin to help easily manage multiple terminal windows.           |
+| [ap/vim-css-color](https://github.com/ap/vim-css-color)                                                       | Preview colours in source code while editing.           |
+| [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim)                             | EditorConfig plugin for Vim.           |
 | [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)                                             | Theme       |
 | [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)                                       | .           |
 | [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)                               | .           |
