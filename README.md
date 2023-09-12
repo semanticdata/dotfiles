@@ -4,6 +4,7 @@
 - [Other Apps](#Other-Apps)
 - [NeoVim](#NeoVim)
   - [Keybindings](#Keybindings)
+  - [Plugins](#Plugins)
 
 ## GitHub
 
