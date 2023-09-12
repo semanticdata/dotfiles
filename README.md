@@ -1,6 +1,9 @@
 # dotfiles
 
-* [GitHub](/#GitHub)
+- [GitHub](/#GitHub)
+- [Other Apps](#Other Apps)
+- [NeoVim](NeoVim)
+  - [Keybindings](#Keybindings)
 
 ## GitHub
 
@@ -13,9 +16,9 @@
 
 ## Other Apps
 
-- [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) → [Configuration](others/obsidian-publisher.json)
-- [mpv](https://mpv.io/) → [Configuration](others/mpv.toml)
 - [alacritty](https://github.com/alacritty/alacritty) → [Configuration](others/alacritty.yml)
+- [mpv](https://mpv.io/) → [Configuration](others/mpv.toml)
+- [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) → [Configuration](others/obsidian-publisher.json)
 
 ## NeoVim
 
@@ -82,24 +85,24 @@
 
 ### Plugins
 
-| Author/Plugin | Description |
-| ------------- | ----------- |
-| [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim) | . |
-| [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) | . |
-| [ap/vim-css-color](https://github.com/ap/vim-css-color) | . |
-| [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) | . |
-| [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) | Theme |
-| [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua) | . |
-| [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons) | . |
-| [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim) | . |
-| [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) | . |
-| [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim) | . |
-| [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim) | . |
-| [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim) | . |
-| [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | . |
-| [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) | . |
-| [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | . |
-| [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good) | . |
-| [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) | . |
-| [vim-telescope/telescope-fzf-native.nvim](https://github.com/vim-telescope/telescope-fzf-native.nvim) | . |
-| [wellle/targets.vim](https://github.com/wellle/targets.vim) | . |
+| Author/Plugin                                                                                                 | Description |
+| ------------------------------------------------------------------------------------------------------------- | ----------- |
+| [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim)                                         | .           |
+| [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)                                         | .           |
+| [ap/vim-css-color](https://github.com/ap/vim-css-color)                                                       | .           |
+| [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim)                             | .           |
+| [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)                                             | Theme       |
+| [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)                                       | .           |
+| [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)                               | .           |
+| [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)                                         | .           |
+| [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)                 | .           |
+| [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)                                             | .           |
+| [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim)                                             | .           |
+| [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)                                     | .           |
+| [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)                             | .           |
+| [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) | .           |
+| [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)                         | .           |
+| [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good)                                       | .           |
+| [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)                                                   | .           |
+| [vim-telescope/telescope-fzf-native.nvim](https://github.com/vim-telescope/telescope-fzf-native.nvim)         | .           |
+| [wellle/targets.vim](https://github.com/wellle/targets.vim)                                                   | .           |
