@@ -1,9 +1,9 @@
 # dotfiles
 
-- [GitHub](/#GitHub)
-- [Other Apps](/#Other-Apps)
-- [NeoVim](/#NeoVim)
-  - [Keybindings](/#Keybindings)
+- [GitHub](#GitHub)
+- [Other Apps](#Other-Apps)
+- [NeoVim](#NeoVim)
+  - [Keybindings](#Keybindings)
 
 ## GitHub
 
