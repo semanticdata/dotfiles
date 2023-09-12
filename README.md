@@ -2,11 +2,14 @@
 
 ## Table of Contents
 
-- [GitHub](#github)
-- [Other Apps](#other-apps)
-- [NeoVim](#neovim)
-  - [Keybindings](#keybindings)
-  - [Plugins](#plugins)
+- [dotfiles](#dotfiles)
+  - [Table of Contents](#table-of-contents)
+  - [GitHub](#github)
+  - [Other Apps](#other-apps)
+  - [NeoVim](#neovim)
+    - [Screenshots](#screenshots)
+    - [Keybindings](#keybindings)
+    - [Plugins](#plugins)
 
 ## GitHub
 
@@ -31,6 +34,12 @@
 **Configuration** → [init.lua](nvim/init.lua)
 
 **Sync from CLI** → `nvim --headless "+Lazy! sync" +qa`
+
+### Screenshots
+
+| Welcome Screen | Example File |
+| -------------- | ------------ |
+| ![welcome screen](assets/screenshot-1-no-file.png) | ![example file](assets/screenshot-2-nvim-config.png) |
 
 ### Keybindings
 
