@@ -1,17 +1,18 @@
 # dotfiles
 
-  - [GitHub](#github)
-  - [Other Apps](#other-apps)
-  - [NeoVim](#neovim)
-    - [Keybindings](#keybindings)
-    - [Plugins](#plugins)
+## Table of Contents
+
+- [GitHub](#github)
+- [Other Apps](#other-apps)
+- [NeoVim](#neovim)
+  - [Keybindings](#keybindings)
+  - [Plugins](#plugins)
 
 ## GitHub
 
-|  |  |
+| Name | Git Ignore |
 | --- | --- |
-| [.gitattributes](.gitattributes) |
-| [.gitignore](.gitignore) |
+| [.gitattributes](.gitattributes) | [.gitignore](.gitignore) |
 | [hugo](https://gohugo.io/) | [.gitignore](github/hugo.gitignore) |
 | [jekyll](https://jekyllrb.com/) | [.gitignore](github/jekyll.gitignore) |
 | [lua](https://www.lua.org/) | [.gitignore](github/lua.gitignore) |
@@ -36,7 +37,7 @@
 | Key Combination | Command |
 | --- | --- |
 | `<leader>` | `<space>` |
-| Unsorted* |
+| **Unsorted** |
 | `<leader>h` | `^` |
 | `<leader>l` | `g_` |
 | `<leader>a` | `:keepjumps normal! ggVG<cr>` |
