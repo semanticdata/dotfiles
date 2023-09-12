@@ -1,10 +1,11 @@
 # dotfiles
 
-- [GitHub](#GitHub)
-- [Other Apps](#Other-Apps)
-- [NeoVim](#NeoVim)
-  - [Keybindings](#Keybindings)
-  - [Plugins](#Plugins)
+- [dotfiles](#dotfiles)
+  - [GitHub](#github)
+  - [Other Apps](#other-apps)
+  - [NeoVim](#neovim)
+    - [Keybindings](#keybindings)
+    - [Plugins](#plugins)
 
 ## GitHub
 
