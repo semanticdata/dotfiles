@@ -84,7 +84,7 @@
 
 | Author/Plugin | Description |
 | ------------- | ----------- |
-| `folke/tokyonight.nvim` | Theme |
+| [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) | Theme |
 | `kyazdabi42/nvim-web-devicons` | . |
 
 
