@@ -1,5 +1,7 @@
 # dotfiles
 
+My configuration files.
+
 ## Table of Contents
 
 - [dotfiles](#dotfiles)
