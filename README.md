@@ -1,17 +1,6 @@
 # dotfiles
 
-My configuration files.
-
-## Table of Contents
-
-- [dotfiles](#dotfiles)
-  - [Table of Contents](#table-of-contents)
-  - [GitHub](#github)
-  - [Other Apps](#other-apps)
-  - [NeoVim](#neovim)
-    - [Screenshots](#screenshots)
-    - [Keybindings](#keybindings)
-    - [Plugins](#plugins)
+Opinionated compilation of configuration files and other related items.
 
 ## GitHub
 
