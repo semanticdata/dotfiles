@@ -4,27 +4,22 @@ Opinionated compilation of configuration files and other somewhat related items.
 
 ## GitHub
 
-| Name | Git Ignore |
-| --- | --- |
-| [.gitattributes](.gitattributes) | [.gitignore](.gitignore) |
-| [hugo](https://gohugo.io/) | [.gitignore](github/hugo.gitignore) |
-| [jekyll](https://jekyllrb.com/) | [.gitignore](github/jekyll.gitignore) |
-| [lua](https://www.lua.org/) | [.gitignore](github/lua.gitignore) |
-| [zola](https://www.getzola.org/) | [.gitignore](github/zola.gitignore) |
+- [.gitattributes](.gitattributes)
+- [.gitignore](.gitignore)
 
 ## Obsidian
 
 Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-starter-vault) to get you started with the app.
 
 - [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher)
-- [Configuration](others/obsidian-publisher.json)
+- [Configuration](obsidian/obsidian-publisher.json)
 
 ## Other Apps
 
 | App or Plugin | Configurations |
 | --- | --- |
-| [alacritty](https://github.com/alacritty/alacritty) | [Configuration](others/alacritty.yml) |
-| [mpv](https://mpv.io/) | [Configuration](others/mpv.toml) |
+| [alacritty](https://github.com/alacritty/alacritty) | [Configuration](terminals/alacritty.yml) |
+| [mpv](https://mpv.io/) | [Configuration](mpv/mpv.toml) |
 
 ## NeoVim
 
