@@ -1,3 +1,5 @@
+# Source: https://github.com/github/gitignore
+# root + Global + community = gitignore file
 # Folder view configuration files
 .DS_Store
 Desktop.ini
