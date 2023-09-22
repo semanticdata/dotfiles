@@ -1,3 +1,11 @@
+<p align="right">
+  <img src="https://img.shields.io/github/languages/code-size/semanticdata/dotfiles" />
+  <img src="https://img.shields.io/github/repo-size/semanticdata/dotfiles" />
+  <img src="https://img.shields.io/github/commit-activity/t/semanticdata/dotfiles" />
+  <img src="https://img.shields.io/github/last-commit/semanticdata/dotfiles" />
+<!--   <img src="https://img.shields.io/website/https/miguelpimentel.do.svg" /> -->
+</p>
+
 # dotfiles
 
 Opinionated compilation of configuration files and other somewhat related items.
