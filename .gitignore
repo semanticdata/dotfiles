@@ -1,12 +1,8 @@
-# Source: https://github.com/github/gitignore
-# root + Global + community = gitignore file
-# Folder view configuration files
+# Automatically generated items
 .DS_Store
 Desktop.ini
-
 # Thumbnail cache files
 ._*
 Thumbs.db
-
 # Compiled Python files
 *.pyc

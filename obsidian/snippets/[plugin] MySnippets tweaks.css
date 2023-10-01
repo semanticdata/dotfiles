@@ -1,17 +1,16 @@
-/*
-    MySnippets plugin tweaks
-    https://github.com/replete/obsidian-minimal-theme-css-snippets
-*/
-
 /* Embiggen menu width for longer filenames */
 .MySnippets-statusbar-menu {
     width:auto;
     height:auto;
 }
 
+.MySnippets-statusbar-menu .menu-item {
+    padding: 0;
+}
+
 /* Re-order menu item */
 .MySnippets-statusbar-menu .menu-item .checkbox-container {
-    order:1
+    order: 1;
 }
 
 /* Make code button less prominent */
