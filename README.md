@@ -14,6 +14,7 @@ Opinionated compilation of configuration files and other somewhat related items.
 
 - [.gitattributes](.gitattributes)
 - [.gitignore](.gitignore)
+- [.gitconfig](.gitconfig)
 
 ## Obsidian
 
@@ -22,7 +23,7 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 - [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher)
 - [Configuration](obsidian/obsidian-publisher.json)
 
-## Other Apps
+## Other Apps Configs
 
 | App or Plugin | Configurations |
 | --- | --- |
