@@ -23,13 +23,6 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 - [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher)
 - [Configuration](obsidian/obsidian-publisher.json)
 
-## Other Apps Configs
-
-| App or Plugin | Configurations |
-| --- | --- |
-| [alacritty](https://github.com/alacritty/alacritty) | [Configuration](terminals/alacritty.yml) |
-| [mpv](https://mpv.io/) | [Configuration](mpv/mpv.toml) |
-
 ## NeoVim
 
 **Configuration** → [init.lua](nvim/init.lua)
