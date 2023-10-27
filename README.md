@@ -16,12 +16,12 @@ Opinionated compilation of configuration files and other somewhat related items.
 - [.gitignore](.gitignore)
 - [.gitconfig](.gitconfig)
 
-Add original repo as Upstream Remote
+### Add original repo as Upstream Remote
 
 ```bash
 git remote add upstream <original-repo>.git
 ```
-Update your fork
+### Update your fork
 
 ```bash
 git pull upstream main 
