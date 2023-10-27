@@ -16,6 +16,17 @@ Opinionated compilation of configuration files and other somewhat related items.
 - [.gitignore](.gitignore)
 - [.gitconfig](.gitconfig)
 
+Add original repo as Upstream Remote
+
+```bash
+git remote add upstream <original-repo>.git
+```
+Update your fork
+
+```bash
+git pull upstream main 
+```
+
 ## Obsidian
 
 Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-starter-vault) to get you started with the app.
