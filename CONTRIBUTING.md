@@ -1,4 +1,4 @@
-# Welcome to Silicon Dioxide Contributing Guide
+# Welcome to [this-repo] Contributing Guide
 
 Read our [Code of Conduct](CODE_OF_CONDUCT) to keep our community approachable and respectable.
 
