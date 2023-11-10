@@ -11,12 +11,12 @@
 
 Opinionated compilation of configuration files and other loosely related items.
 
-This document includes the following sections:
+### Table of Contents
 
-- [Firefox](#firefox)
-- [GitHub](#github)
-- [Obsidian](#obsidian)
-- [NeoVim](#neovim)
+1. [Firefox](#firefox)
+2. [GitHub](#github)
+3. [Obsidian](#obsidian)
+4. [NeoVim](#neovim)
 
 ## Firefox
 
