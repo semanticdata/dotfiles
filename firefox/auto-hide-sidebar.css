@@ -1,0 +1,35 @@
+#sidebar-box {
+  --sidebar-hover-width: 2px;
+  position: relative !important;
+  overflow-x: hidden !important;
+  margin-right: calc(var(--sidebar-hover-width) * -1) !important;
+  min-width: var(--sidebar-hover-width) !important;
+  max-width: var(--sidebar-hover-width) !important;
+  border-right: 1px solid var(--sidebar-border-color);
+  z-index: 2147483647 !important;
+}
+
+#sidebar-box:hover {
+  --sidebar-visible-width: 350px;
+  margin-right: calc(var(--sidebar-visible-width) * -1) !important;
+  min-width: var(--sidebar-visible-width) !important;
+  max-width: var(--sidebar-visible-width) !important;
+}
+
+#sidebar {
+  opacity: 0 !important;
+}
+
+#sidebar-box:hover #sidebar {
+  opacity: 1 !important;
+}
+
+/* #sidebar-header is hidden by default, change "none" to "inherit" to restore it. */
+#sidebar-header {
+  display: none !important;
+}
+
+/* #sidebar-splitter styles the divider between the sidebar and the rest of the browser. */
+#sidebar-splitter {
+  display: none;
+}
