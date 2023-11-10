@@ -13,9 +13,7 @@
 
 #sidebar-box:hover {
   --expanded-width: 250px;
-  margin-right: calc(
-    calc(var(--expanded-width) - var(--bar-width)) * -1
-  ) !important;
+  margin-right: calc(calc(var(--expanded-width) - var(--bar-width)) * -1) !important;
   /* left: var(--expanded-width) !important; */
   min-width: var(--expanded-width) !important;
   max-width: var(--expanded-width) !important;
