@@ -1,10 +1,10 @@
-/* remove maximum/minimum width restriction from firefox sidebar */
-/* Can use rem, em, %, px. Must include !important */
+/* Last Updated: 2023-11-10 at 09:15 */
 
-#sidebar-box {
+/* Declared minimum and maximum width for the sidebar. Moved to the bottom. */
+/* #sidebar-box {
   max-width: 40% !important;
   min-width: 300px !important;
-}
+} */
 
 #appcontent>#tabbrowser-tabbox>#tabbrowser-tabpanels>.deck-selected>.browserContainer>.browserStack>browser {
   border-radius: 10px !important;
