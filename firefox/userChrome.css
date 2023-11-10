@@ -1,10 +1,4 @@
-/* Last Updated: 2023-11-10 at 09:15 */
-
-/* Declared minimum and maximum width for the sidebar. Moved to the bottom. */
-/* #sidebar-box {
-  max-width: 40% !important;
-  min-width: 300px !important;
-} */
+/* Last Updated: 2023-11-10 */
 
 #appcontent>#tabbrowser-tabbox>#tabbrowser-tabpanels>.deck-selected>.browserContainer>.browserStack>browser {
   border-radius: 10px !important;
@@ -12,7 +6,8 @@
 }
 
 .browserStack {
-  background: #3b3f52;
+  /* background: #3b3f52; */
+  background: #563d7c;
 }
 
 .browserContainer {
@@ -43,8 +38,8 @@
 
 #navigator-toolbox:not(:hover) {
   --is-bar-visible: hidden;
-  opacity: 0 !important;
-  height: 15px;
+  opacity: 0.5 !important; /* 0 */
+  height: 40px; /* 15px */
   transition: height 200ms ease-in-out, opacity 175ms ease-in-out;
 }
 
@@ -62,13 +57,13 @@
 #navigator-toolbox:hover {
   height: 40px;
   opacity: 1 !important;
-  transition: opacity 175ms ease-in-out;
+  transition: opacity 275ms ease-in-out;
 }
 
 #navigator-toolbox:focus-within {
   height: 40px;
   opacity: 1 !important;
-  transition: opacity 175ms ease-in-out;
+  transition: opacity 275ms ease-in-out;
   --is-bar-visible: visible;
 }
 
@@ -84,13 +79,15 @@ toolbarbutton[open="true"] {
   --is-bar-visible: visible !important;
 }
 
-/* #sidebar-header {
-  display: none;
-} */
+#sidebar-header {
+  /* display: none; */
+  /* height: 2rem; */
+  padding-top: 5rem;
+  margin-top: 5rem;
+}
 
 #sidebar-box {
   min-width: 300px !important;
-  /* max-width: 300px !important; */
   max-width: 600px !important;
   min-height: unset !important;
   max-height: unset !important;
