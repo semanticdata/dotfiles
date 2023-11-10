@@ -1,7 +1,7 @@
 {
-	"build": {
-		"env": {
-			"ZOLA_VERSION": "0.17.2"
-		}
-	}
+  "build": {
+    "env": {
+      "ZOLA_VERSION": "0.17.2"
+    }
+  }
 }

@@ -1,4 +1,4 @@
-<h1 align="center">dotfiles</h1>
+<h1 align="center">⚙dotfiles</h1>
 
 <p align="center">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/dotfiles" />
@@ -11,8 +11,12 @@
 
 Opinionated compilation of configuration files and other loosely related items.
 
-It includes:
+This document includes the following sections:
+
 - [Firefox](#firefox)
+- [GitHub](#github)
+- [Obsidian](#obsidian)
+- [NeoVim](#neovim)
 
 ## Firefox
 

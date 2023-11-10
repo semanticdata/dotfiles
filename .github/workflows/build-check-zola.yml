@@ -3,7 +3,7 @@ name: Zola only Build
 on:
   # push:
   #   branches:
-  #     - main 
+  #     - main
   pull_request:
   workflow_dispatch:
 
