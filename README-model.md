@@ -78,7 +78,6 @@ Icons used come from [UXWing](https://uxwing.com/license/).
 
 Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you see fit. That said, some acknowledgement would be well received.
 
-
 ## License
 
 Source code is available under [MIT](LICENSE).

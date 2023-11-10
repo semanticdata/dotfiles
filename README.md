@@ -1,13 +1,18 @@
-<p align="right">
+<h1 align="center">dotfiles</h1>
+
+<p align="center">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/dotfiles" />
   <img src="https://img.shields.io/github/repo-size/semanticdata/dotfiles" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/dotfiles" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/dotfiles" />
 </p>
 
-# dotfiles
+## Introduction
 
 Opinionated compilation of configuration files and other loosely related items.
+
+It includes:
+- [Firefox](#firefox)
 
 ## Firefox
 
