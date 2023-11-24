@@ -11,12 +11,23 @@
 
 Opinionated compilation of configuration files and other loosely related items.
 
-### Table of Contents
+## GitHub
 
-1. [Firefox](#firefox)
-2. [GitHub](#github)
-3. [Obsidian](#obsidian)
-4. [NeoVim](#neovim)
+- [.gitattributes](.gitattributes)
+- [.gitignore](.gitignore)
+- [.gitconfig](.gitconfig)
+
+### Add original repo as Upstream Remote
+
+```bash
+git remote add upstream <original-repo>.git
+```
+
+### Update your fork
+
+```bash
+git pull upstream main 
+```
 
 ## Firefox
 
@@ -63,24 +74,6 @@ Opinionated compilation of configuration files and other loosely related items.
 `full-screen-api.warning.timeout` `0`
 - Disable add-on recommendations
 `extensions.htmlaboutaddons.recommendations.enabled` `false`
-
-## GitHub
-
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
-- [.gitconfig](.gitconfig)
-
-### Add original repo as Upstream Remote
-
-```bash
-git remote add upstream <original-repo>.git
-```
-
-### Update your fork
-
-```bash
-git pull upstream main 
-```
 
 ## Obsidian
 

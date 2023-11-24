@@ -1,5 +1,5 @@
 <!-- Badges for Website repositories -->
-<p align="right">
+<p align="center">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/[this-repo]" />
   <img src="https://img.shields.io/github/repo-size/semanticdata/[this-repo]" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/[this-repo]" />

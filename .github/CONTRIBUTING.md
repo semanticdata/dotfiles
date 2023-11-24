@@ -21,7 +21,7 @@ If you spot a problem with the docs, [search if an issue already exists](https:/
 
 #### Solve an Issue
 
-Scan through our [existing issues](https://github.com/semanticdata/silicon-dioxide/issues) to find one that interests you. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix.
+Scan through our existing issues to find one that interests you. As a general rule, we don’t assign issues to anyone. If you find an issue to work on, you are welcome to open a PR with a fix/change.
 
 ### Commit Your Update
 
@@ -31,7 +31,7 @@ Commit the changes once you are happy with them. Don't forget to self-review you
 
 When you're finished with the changes, create a pull request, also known as a PR.
 
-- Don't forget to link PR to issue if you are solving one.
+- Don't forget to link the PR to the issue if you are solving one.
 - Enable the checkbox to allow maintainer edits so the branch can be updated for a merge.
 Once you submit your PR, a Docs team member will review your proposal. We may ask questions or request additional information.
 - We may ask for changes to be made before a PR can be merged, either using suggested changes or pull request comments. You can apply suggested changes directly through the UI. You can make any other changes in your fork, then commit them to your branch.
@@ -40,6 +40,6 @@ Once you submit your PR, a Docs team member will review your proposal. We may as
 
 ### Your PR is Merged
 
-Once your PR is merged, your contributions will be publicly visible on the [Contributors](https://github.com/semanticdata/silicon-dioxide/graphs/contributors) page.
+Once your PR is merged, your contributions will be publicly visible on the Contributors page.
 
-Now you are part of the Silicon Dioxide community.
+Now you are part of the community.
