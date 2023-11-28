@@ -1,0 +1,15 @@
+/*
+"vscode_custom_css.imports": [
+  "file:///C:/Users/pimentma/.vscode/custom.css",
+],
+*/
+
+.monaco-workbench .part.editor>.content .editor-group-container>.editor-group-watermark>.letterpress {
+  width: 100%;
+  max-height: 100%;
+  aspect-ratio: 1/1;
+  background-size: contain;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  display: none;
+}
