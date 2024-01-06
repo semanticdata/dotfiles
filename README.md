@@ -171,7 +171,7 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 ### Keybindings
 
 | Key Combination | Command |
-| --- | --- |
+| :---: | :---: |
 | `<leader>` | `<space>` |
 | **Unsorted** |
 | `<leader>h` | `^` |
@@ -230,7 +230,7 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 ### Plugins
 
 | Author/Plugin                                                                                                 | Description                                                          |
-| ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| :-------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------- |
 | [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim)                                         | A snazzy bufferline for Neovim.                                      |
 | [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)                                         | A neovim lua plugin to help easily manage multiple terminal windows. |
 | [ap/vim-css-color](https://github.com/ap/vim-css-color)                                                       | Preview colours in source code while editing.                        |
