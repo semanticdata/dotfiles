@@ -249,6 +249,20 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 |    [vim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim)     | Find, Filter, Preview, Pick. All lua, all the time.                  |
 |                          [wellle/targets.vim](https://github.com/wellle/targets.vim)                          | Vim plugin that provides additional text objects.                    |
 
+## Reporting Issues
+
+We use GitHub Issues as the official bug tracker for this repository. Please
+search [existing issues](https://github.com/semanticdata/dotfiles/issues). It’s
+possible someone has already reported the same problem.
+
+If your problem or idea is not addressed yet, [open a new issue](https://github.com/semanticdata/dotfiles/issues/new).
+
+## Contributing
+
+We'd love your help! Please see [CONTRIBUTING](.github/CONTRIBUTING.md) to learn about the kinds of contributions we're looking for.
+
+Please read and be aware of the [Code of Conduct](.github/CODE_OF_CONDUCT.md) before conttributing.
+
 ## License
 
 Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you like. That said, some acknowledgement would be well received.
