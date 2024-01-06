@@ -160,9 +160,13 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 
 ### Screenshots
 
-| Welcome Screen | Example File |
-| -------------- | ------------ |
-| ![welcome screen](assets/screenshot-1-no-file.png) | ![example file](assets/screenshot-2-nvim-config.png) |
+**Welcome Screen**
+
+![welcome screen](assets/screenshot-1-no-file.png)
+
+**Example File**
+
+![example file](assets/screenshot-2-nvim-config.png)
 
 ### Keybindings
 
