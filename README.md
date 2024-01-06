@@ -17,13 +17,13 @@ Opinionated compilation of configuration files and other loosely related items.
 - [.gitignore](.gitignore)
 - [.gitconfig](.gitconfig)
 
-### Add original repo as Upstream Remote
+**Add original repo as Upstream Remote:**
 
 ```bash
 git remote add upstream <original-repo>.git
 ```
 
-### Update your fork
+**Update your fork:**
 
 ```bash
 git pull upstream main 
@@ -51,7 +51,6 @@ git pull upstream main
   <img src="https://img.shields.io/amo/users/{a16c3799-d903-44e3-b044-a032197f5ef8}?style=for-the-badge" />
   <img src="https://img.shields.io/github/license/datastring/firefox-telegram-in-sidebar?style=for-the-badge" />
 </p>
-
 
 ### Brands
 
@@ -145,112 +144,111 @@ git pull upstream main
 - Disable add-on recommendations
 `extensions.htmlaboutaddons.recommendations.enabled` `false`
 
-## Obsidian
+## Obsidian.md
 
 Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-starter-vault) to get you started with the app.
 
-- [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher)
-- [Configuration](obsidian/obsidian-publisher.json)
+### Obsidian Publisher → GitHub
+
+[Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) helps you to publish your notes on a preconfigured GitHub repository from your Obsidian vault. Check out my [configuration](config/obsidian/obsidian-publisher.json).
 
 ## NeoVim
 
-**Configuration** → [init.lua](nvim/init.lua)
+**Configuration** → [init.lua](config/nvim/init.lua)
 
 **Sync from CLI** → `nvim --headless "+Lazy! sync" +qa`
 
 ### Screenshots
 
-**Welcome Screen**
+![Welcome Screen](/assets/screenshot-1-no-file.png)
+*Welcome Screen*
 
-![welcome screen](/assets/screenshot-1-no-file.png)
-
-**Example File**
-
-![example file](/assets/screenshot-2-nvim-config.png)
+![Example File](/assets/screenshot-2-nvim-config.png)
+*Example File*
 
 ### Keybindings
 
-| Key Combination | Command |
-| :---: | :---: |
-| `<leader>` | `<space>` |
-| **Unsorted** |
-| `<leader>h` | `^` |
-| `<leader>l` | `g_` |
-| `<leader>a` | `:keepjumps normal! ggVG<cr>` |
-| `gy` | `"+y` |
-| `gp` | `"+p` |
-| `x` | `"_x` |
-| `<leader>e` | `<cmd>NvimTreeToggle<cr>` |
-| **Commands** |
-| `<leader>w` | `<cmd>write<cr>` |
-| `<leader>bq` | `<cmd>bdelete<cr>` |
-| `<leader>bl` | `<cmd>buffer #<cr>` |
-| `<F2>` | `<cmd>Lexplore<cr>` |
-| `<space><space>` | `<F2>` |
-| **Telescope** |
-| `<leader><space>` | `<cmd>Telescope buffers<cr>` |
-| `<leader>?` | `<cmd>Telescope oldfiles<cr>` |
-| `<leader>ff` | `<cmd>Telescope find_files<cr>` |
-| `<leader>fg` | `<cmd>Telescope live_grep<cr>` |
-| `<leader>fd` | `<cmd>Telescope diagnostics<cr>` |
-| `<leader>fs` | `<cmd>Telescope current_buffer_fuzzy_find<cr>` |
-| **Telescope (builtin)** |
-| `<leader>ff` | `builtin.find_files, {}` |
-| `<leader>fg` | `builtin.live_grep, {}` |
-| `<leader>fb` | `builtin.buffers, {}` |
-| `<leader>fh` | `builtin.help_tags, {}` |
-| **Normal Mode** |
-| `<C-q>` | `:q!<CR>` |
-| `<F4>` | `:bd<CR>` |
-| **Moving Vertically** |
-| `<C-d>` | `<C-d>zz` |
-| `<C-u>` | `<C-u>zz` |
-| `n` | `nzzzv` |
-| `N` | `Nzzzv` |
-| **Tab Navigation** |
-| `<S-Tab>` | `gT` |
-| `<Tab>` | `gt` |
-| `<silent <S-t>` | `:tabnew<CR>` |
-| **Pane/Window Navigation** |
-| `<C-h>` | `<C-w>h` |
-| `<C-j>` | `<C-w>j` |
-| `<C-k>` | `<C-w>k` |
-| `<C-l>` | `<C-w>l` |
-| `<C-left>` | `<C-w>h` |
-| `<C-down>` | `<C-w>j` |
-| `<C-up>` | `<C-w>k` |
-| `<C-right>` | `<C-w>l` |
-| **Terminal** |
-| `<A-t>` | `:sp term://pwsh<cr>i` |
-| `tv` | `:lcd %:p:h<CR>:vsp term://pwsh<CR>i` |
-| `th` | `:lcd %:p:h<CR>:sp term://pwsh<CR>i` |
-| `<Esc>` | `<C-\\><C-n>` |
-| `:q!` | `<C-\\><C-n>:q!<CR>` |
+|      Key Combination       |                    Command                     |
+| :------------------------: | :--------------------------------------------: |
+|         `<leader>`         |                   `<space>`                    |
+|        **Unsorted**        |                                                |
+|        `<leader>h`         |                      `^`                       |
+|        `<leader>l`         |                      `g_`                      |
+|        `<leader>a`         |         `:keepjumps normal! ggVG<cr>`          |
+|            `gy`            |                     `"+y`                      |
+|            `gp`            |                     `"+p`                      |
+|            `x`             |                     `"_x`                      |
+|        `<leader>e`         |           `<cmd>NvimTreeToggle<cr>`            |
+|        **Commands**        |                                                |
+|        `<leader>w`         |                `<cmd>write<cr>`                |
+|        `<leader>bq`        |               `<cmd>bdelete<cr>`               |
+|        `<leader>bl`        |              `<cmd>buffer #<cr>`               |
+|           `<F2>`           |              `<cmd>Lexplore<cr>`               |
+|      `<space><space>`      |                     `<F2>`                     |
+|       **Telescope**        |                                                |
+|     `<leader><space>`      |          `<cmd>Telescope buffers<cr>`          |
+|        `<leader>?`         |         `<cmd>Telescope oldfiles<cr>`          |
+|        `<leader>ff`        |        `<cmd>Telescope find_files<cr>`         |
+|        `<leader>fg`        |         `<cmd>Telescope live_grep<cr>`         |
+|        `<leader>fd`        |        `<cmd>Telescope diagnostics<cr>`        |
+|        `<leader>fs`        | `<cmd>Telescope current_buffer_fuzzy_find<cr>` |
+|  **Telescope (builtin)**   |                                                |
+|        `<leader>ff`        |            `builtin.find_files, {}`            |
+|        `<leader>fg`        |            `builtin.live_grep, {}`             |
+|        `<leader>fb`        |             `builtin.buffers, {}`              |
+|        `<leader>fh`        |            `builtin.help_tags, {}`             |
+|      **Normal Mode**       |                                                |
+|          `<C-q>`           |                   `:q!<CR>`                    |
+|           `<F4>`           |                   `:bd<CR>`                    |
+|   **Moving Vertically**    |                                                |
+|          `<C-d>`           |                   `<C-d>zz`                    |
+|          `<C-u>`           |                   `<C-u>zz`                    |
+|            `n`             |                    `nzzzv`                     |
+|            `N`             |                    `Nzzzv`                     |
+|     **Tab Navigation**     |                                                |
+|         `<S-Tab>`          |                      `gT`                      |
+|          `<Tab>`           |                      `gt`                      |
+|      `<silent <S-t>`       |                 `:tabnew<CR>`                  |
+| **Pane/Window Navigation** |                                                |
+|          `<C-h>`           |                    `<C-w>h`                    |
+|          `<C-j>`           |                    `<C-w>j`                    |
+|          `<C-k>`           |                    `<C-w>k`                    |
+|          `<C-l>`           |                    `<C-w>l`                    |
+|         `<C-left>`         |                    `<C-w>h`                    |
+|         `<C-down>`         |                    `<C-w>j`                    |
+|          `<C-up>`          |                    `<C-w>k`                    |
+|        `<C-right>`         |                    `<C-w>l`                    |
+|        **Terminal**        |                                                |
+|          `<A-t>`           |             `:sp term://pwsh<cr>i`             |
+|            `tv`            |     `:lcd %:p:h<CR>:vsp term://pwsh<CR>i`      |
+|            `th`            |      `:lcd %:p:h<CR>:sp term://pwsh<CR>i`      |
+|          `<Esc>`           |                 `<C-\\><C-n>`                  |
+|           `:q!`            |              `<C-\\><C-n>:q!<CR>`              |
 
 ### Plugins
 
-| Author/Plugin                                                                                                 | Description                                                          |
-| :-------------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------- |
-| [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim)                                         | A snazzy bufferline for Neovim.                                      |
-| [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)                                         | A neovim lua plugin to help easily manage multiple terminal windows. |
-| [ap/vim-css-color](https://github.com/ap/vim-css-color)                                                       | Preview colours in source code while editing.                        |
-| [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim)                             | EditorConfig plugin for Vim.                                         |
-| [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)                                             | Theme                                                                |
-| [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)                                       | A file explorer tree for neovim written in lua.                      |
-| [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)                               | Lua "fork" of vim-web-devicons for neovim.                           |
-| [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)                                         | Git integration for buffers.                                         |
-| [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)                 | Indent guides for Neovim.                                            |
-| [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)                                             | Smart and powerful comment plugin for neovim.                        |
-| [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim)                                             | All the lua functions I [they] don't want to write twice.            |
-| [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)                                     | neovim statusline plugin written in pure lua.                        |
-| [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)                             | Find, Filter, Preview, Pick. All lua, all the time.                  |
+|                                                 Author/Plugin                                                 | Description                                                          |
+| :-----------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------- |
+|                     [akinsho/bufferline.nvim](https://github.com/akinsho/bufferline.nvim)                     | A snazzy bufferline for Neovim.                                      |
+|                     [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)                     | A neovim lua plugin to help easily manage multiple terminal windows. |
+|                            [ap/vim-css-color](https://github.com/ap/vim-css-color)                            | Preview colours in source code while editing.                        |
+|               [editorconfig/editorconfig-vim](https://github.com/editorconfig/editorconfig-vim)               | EditorConfig plugin for Vim.                                         |
+|                       [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)                       | Theme                                                                |
+|                    [kyazdani42/nvim-tree.lua](https://github.com/kyazdani42/nvim-tree.lua)                    | A file explorer tree for neovim written in lua.                      |
+|                [kyazdani42/nvim-web-devicons](https://github.com/kyazdani42/nvim-web-devicons)                | Lua "fork" of vim-web-devicons for neovim.                           |
+|                     [lewis6991/gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)                     | Git integration for buffers.                                         |
+|         [lukas-reineke/indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)         | Indent guides for Neovim.                                            |
+|                       [numToStr/Comment.nvim](https://github.com/numToStr/Comment.nvim)                       | Smart and powerful comment plugin for neovim.                        |
+|                       [nvim-lua/plenary.nvim](https://github.com/nvim-lua/plenary.nvim)                       | All the lua functions I [they] don't want to write twice.            |
+|                   [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim)                   | neovim statusline plugin written in pure lua.                        |
+|               [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)               | Find, Filter, Preview, Pick. All lua, all the time.                  |
 | [nvim-treesitter/nvim-treesitter-textobjects](https://github.com/nvim-treesitter/nvim-treesitter-textobjects) | Syntax aware text-objects, select, move, swap, and peek support.     |
-| [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)                         | Nvim Treesitter configurations and abstraction layer.                |
-| [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good)                                       | Nvim plugin designed to make you better at Vim Movements.            |
-| [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)                                                   | A Git wrapper so awesome, it should be illegal.                      |
-| [vim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim)        | Find, Filter, Preview, Pick. All lua, all the time.                  |
-| [wellle/targets.vim](https://github.com/wellle/targets.vim)                                                   | Vim plugin that provides additional text objects.                    |
+|             [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)             | Nvim Treesitter configurations and abstraction layer.                |
+|                    [ThePrimeagen/vim-be-good](https://github.com/ThePrimeagen/vim-be-good)                    | Nvim plugin designed to make you better at Vim Movements.            |
+|                          [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)                          | A Git wrapper so awesome, it should be illegal.                      |
+|    [vim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim)     | Find, Filter, Preview, Pick. All lua, all the time.                  |
+|                          [wellle/targets.vim](https://github.com/wellle/targets.vim)                          | Vim plugin that provides additional text objects.                    |
 
 ## License
 
-Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you see fit. That said, some acknowledgement would be well received.
+Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you like. That said, some acknowledgement would be well received.
