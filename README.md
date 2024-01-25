@@ -11,15 +11,18 @@
 
 Opinionated compilation of configuration files and other loosely related items.
 
+## Table of Contents
+
 <details>
-<summary><h3>Table of Contents</h3></summary>
+<summary>Show/Hide</summary>
 
 - [Overview](#overview)
+- [Table of Contents](#table-of-contents)
 - [GitHub](#github)
-- [GitHub Badges](#github-badges)
-  - [Website Repositories](#website-repositories)
-  - [Firefox Extension Repository](#firefox-extension-repository)
-  - [Brands](#brands)
+  - [GitHub Badges](#github-badges)
+    - [Website Repositories](#website-repositories)
+    - [Firefox Extension Repository](#firefox-extension-repository)
+    - [Brands](#brands)
 - [Firefox](#firefox)
   - [Add Style to Firefox](#add-style-to-firefox)
   - [Add Style to Sidebery](#add-style-to-sidebery)
@@ -56,9 +59,9 @@ git remote add upstream <original-repo>.git
 git pull upstream main 
 ```
 
-## GitHub Badges
+### GitHub Badges
 
-### Website Repositories
+#### Website Repositories
 
 <p align="">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/dotfiles" />
@@ -68,7 +71,7 @@ git pull upstream main
   <img src="https://img.shields.io/website/https/miguelpimentel.do.svg" />
 </p>
 
-### Firefox Extension Repository
+#### Firefox Extension Repository
 
 <p align="">
   <img alt="Mozilla Add-on"
@@ -79,7 +82,7 @@ git pull upstream main
   <img src="https://img.shields.io/github/license/datastring/firefox-telegram-in-sidebar?style=for-the-badge" />
 </p>
 
-### Brands
+#### Brands
 
 ![Dev.to blog](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)
 ![Rss](https://img.shields.io/badge/rss-F88900?style=for-the-badge&logo=rss&logoColor=white)
