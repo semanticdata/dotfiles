@@ -12,7 +12,7 @@
 Opinionated compilation of configuration files and other loosely related items.
 
 <details>
-<summary>Table of Contents</summary>
+<summary><h2>Table of Contents</h2></b></summary>
 - [Introduction](#introduction)
 - [GitHub](#github)
 - [GitHub Badges](#github-badges)
