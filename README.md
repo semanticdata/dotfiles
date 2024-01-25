@@ -11,6 +11,8 @@
 
 Opinionated compilation of configuration files and other loosely related items.
 
+<details>
+<summary>Table of Contents</summary>
 - [Introduction](#introduction)
 - [GitHub](#github)
 - [GitHub Badges](#github-badges)
@@ -32,6 +34,7 @@ Opinionated compilation of configuration files and other loosely related items.
 - [Contributing](#contributing)
 - [Acknowledgements and Attributions](#acknowledgements-and-attributions)
 - [License](#license)
+</details>
 
 ## GitHub
 
