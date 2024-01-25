@@ -252,8 +252,7 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 ## Reporting Issues
 
 We use GitHub Issues as the official bug tracker for this repository. Please
-search [existing issues](https://github.com/semanticdata/dotfiles/issues). It’s
-possible someone has already reported the same problem.
+search [existing issues](https://github.com/semanticdata/dotfiles/issues). It’s possible someone has already reported the same problem.
 
 If your problem or idea is not addressed yet, [open a new issue](https://github.com/semanticdata/dotfiles/issues/new).
 
@@ -263,6 +262,10 @@ We'd love your help! Please see [CONTRIBUTING](.github/CONTRIBUTING.md) to learn
 
 Please read and be aware of the [Code of Conduct](.github/CODE_OF_CONDUCT.md) before conttributing.
 
+## Acknowledgements and Attributions
+
+The icons used thorought my projects come from [UXWing](https://uxwing.com/license/), [Remix Icon](https://remixicon.com/license/), and/or [Lucide](https://lucide.dev/license/). These are kindly provided under different licenses. Please visit their sites to learn more.
+
 ## License
 
-Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you like. That said, some acknowledgement would be well received.
+Source code in this repository is available under the [MIT License](LICENSE). You are free to use this code however you like. That said, some acknowledgement would be well received.
