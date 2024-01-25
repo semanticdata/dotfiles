@@ -7,14 +7,14 @@
   <img src="https://img.shields.io/github/last-commit/semanticdata/dotfiles" />
 </p>
 
-## Introduction
+## Overview
 
 Opinionated compilation of configuration files and other loosely related items.
 
 <details>
-<summary><h3>Table of Contents</h3></b></summary>
+<summary><h3>Table of Contents</h3></summary>
 
-- [Introduction](#introduction)
+- [Overview](#overview)
 - [GitHub](#github)
 - [GitHub Badges](#github-badges)
   - [Website Repositories](#website-repositories)
