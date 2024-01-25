@@ -11,6 +11,28 @@
 
 Opinionated compilation of configuration files and other loosely related items.
 
+- [Introduction](#introduction)
+- [GitHub](#github)
+- [GitHub Badges](#github-badges)
+  - [Website Repositories](#website-repositories)
+  - [Firefox Extension Repository](#firefox-extension-repository)
+  - [Brands](#brands)
+- [Firefox](#firefox)
+  - [Add Style to Firefox](#add-style-to-firefox)
+  - [Add Style to Sidebery](#add-style-to-sidebery)
+  - [Other Notes](#other-notes)
+  - [Recommended Config Settings](#recommended-config-settings)
+- [Obsidian.md](#obsidianmd)
+  - [Obsidian Publisher → GitHub](#obsidian-publisher--github)
+- [NeoVim](#neovim)
+  - [Screenshots](#screenshots)
+  - [Keybindings](#keybindings)
+  - [Plugins](#plugins)
+- [Reporting Issues](#reporting-issues)
+- [Contributing](#contributing)
+- [Acknowledgements and Attributions](#acknowledgements-and-attributions)
+- [License](#license)
+
 ## GitHub
 
 - [.gitattributes](.gitattributes)
