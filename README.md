@@ -190,13 +190,21 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 
 ### Screenshots
 
+<details>
+<summary>Show/Hide</summary>
+
 ![Welcome Screen](/assets/screenshot-1-no-file.png)
 *Welcome Screen*
 
 ![Example File](/assets/screenshot-2-nvim-config.png)
 *Example File*
 
+</details>
+
 ### Keybindings
+
+<details>
+<summary>Show/Hide</summary>
 
 |      Key Combination       |                    Command                     |
 | :------------------------: | :--------------------------------------------: |
@@ -255,7 +263,12 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 |          `<Esc>`           |                 `<C-\\><C-n>`                  |
 |           `:q!`            |              `<C-\\><C-n>:q!<CR>`              |
 
+</details>
+
 ### Plugins
+
+<details>
+<summary>Show/Hide</summary>
 
 |                                                 Author/Plugin                                                 | Description                                                          |
 | :-----------------------------------------------------------------------------------------------------------: | -------------------------------------------------------------------- |
@@ -278,6 +291,8 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 |                          [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive)                          | A Git wrapper so awesome, it should be illegal.                      |
 |    [vim-telescope/telescope-fzf-native.nvim](https://github.com/nvim-telescope/telescope-fzf-native.nvim)     | Find, Filter, Preview, Pick. All lua, all the time.                  |
 |                          [wellle/targets.vim](https://github.com/wellle/targets.vim)                          | Vim plugin that provides additional text objects.                    |
+
+</details>
 
 ## Reporting Issues
 
