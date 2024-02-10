@@ -18,6 +18,9 @@ Opinionated compilation of configuration files and other loosely related items.
 
 - [Overview](#overview)
 - [Table of Contents](#table-of-contents)
+- [Code Partials](#code-partials)
+  - [HTML](#html)
+  - [CSS](#css)
 - [GitHub](#github)
   - [GitHub Badges](#github-badges)
     - [Website Repositories](#website-repositories)
@@ -40,6 +43,37 @@ Opinionated compilation of configuration files and other loosely related items.
 - [License](#license)
 
 </details>
+
+## Code Partials
+
+Within the [partials/](partials/) folder you can find standalone CSS snippets, and independent HTML with CSS files.
+
+### HTML
+
+- Accordion
+- Avatar
+- Callout Timeline
+- Card Tabs
+- Card
+- Color Swatch
+- Cover Generator
+- Fancy Blockquotes
+- Head
+- Timeline
+- Typewriter Effect
+
+### CSS
+
+- Bearblog
+- Box Shadow
+- Code
+- Full Bleed
+- Normalize
+- Table
+- Utilities
+  - Container (wrapper)
+  - SVG Icons
+- Variables (scss)
 
 ## GitHub
 
