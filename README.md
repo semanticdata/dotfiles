@@ -351,7 +351,7 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 - [Markdown](https://github.com/eslint/eslint-plugin-markdown)
 - [HTML](https://github.com/yeonjuan/html-eslint)
 - [JSON](https://github.com/kuceb/eslint-plugin-json-format)
-- [JSON Schema Validator](https://github.com/ota-meshi/eslint-plugin-json-schema-validator)
+  - [JSON Schema Validator](https://github.com/ota-meshi/eslint-plugin-json-schema-validator)
 
 ## Reporting Issues
 
