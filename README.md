@@ -1,13 +1,11 @@
-<h1 align="center">⚙dotfiles</h1>
+# ⚙ dotfiles
 
-<p align="center">
+<p align="">
   <img src="https://img.shields.io/github/languages/code-size/semanticdata/dotfiles" />
   <img src="https://img.shields.io/github/repo-size/semanticdata/dotfiles" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/dotfiles" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/dotfiles" />
 </p>
-
-## Overview
 
 Opinionated compilation of configuration files and other loosely related items.
 
@@ -16,33 +14,33 @@ Opinionated compilation of configuration files and other loosely related items.
 <details>
 <summary>Show/Hide</summary>
 	
-- [Overview](#overview)
-- [Table of Contents](#table-of-contents)
-- [Code Partials](#code-partials)
-  - [HTML](#html)
-  - [CSS](#css)
-- [GitHub](#github)
-  - [GitHub Badges](#github-badges)
-    - [Website Repositories](#website-repositories)
-    - [Firefox Extension Repository](#firefox-extension-repository)
-    - [Brands](#brands)
-- [Firefox](#firefox)
-  - [Add Style to Firefox](#add-style-to-firefox)
-  - [Add Style to Sidebery](#add-style-to-sidebery)
-  - [Other Notes](#other-notes)
-  - [Recommended Config Settings](#recommended-config-settings)
-- [Obsidian.md](#obsidianmd)
-  - [Obsidian Publisher → GitHub](#obsidian-publisher--github)
-- [NeoVim](#neovim)
-  - [Screenshots](#screenshots)
-  - [Keybindings](#keybindings)
-  - [Plugins](#plugins)
-- [Color Palettes](#color-palettes)
-- [ESLint and Prettier](#eslint-and-prettier)
-- [Reporting Issues](#reporting-issues)
-- [Contributing](#contributing)
-- [Acknowledgements and Attributions](#acknowledgements-and-attributions)
-- [License](#license)
+- [⚙ dotfiles](#-dotfiles)
+  - [Table of Contents](#table-of-contents)
+  - [Code Partials](#code-partials)
+    - [HTML](#html)
+    - [CSS](#css)
+  - [GitHub](#github)
+    - [GitHub Badges](#github-badges)
+      - [Website Repositories](#website-repositories)
+      - [Firefox Extension Repository](#firefox-extension-repository)
+      - [Brands](#brands)
+  - [Firefox](#firefox)
+    - [Add Style to Firefox](#add-style-to-firefox)
+    - [Add Style to Sidebery](#add-style-to-sidebery)
+    - [Other Notes](#other-notes)
+    - [Recommended Config Settings](#recommended-config-settings)
+  - [Obsidian.md](#obsidianmd)
+    - [Obsidian Publisher → GitHub](#obsidian-publisher--github)
+  - [NeoVim](#neovim)
+    - [Screenshots](#screenshots)
+    - [Keybindings](#keybindings)
+    - [Plugins](#plugins)
+  - [Color Palettes](#color-palettes)
+  - [ESLint and Prettier](#eslint-and-prettier)
+  - [Reporting Issues](#reporting-issues)
+  - [Contributing](#contributing)
+  - [Acknowledgements and Attributions](#acknowledgements-and-attributions)
+  - [License](#license)
 
 </details>
 
