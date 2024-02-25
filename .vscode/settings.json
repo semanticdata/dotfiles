@@ -18,5 +18,4 @@
   "files.watcherExclude": {
     "**/node_modules": true
   },
-  // "vscodeMarkdownNotes.noteCompletionConvention": "noExtension"
 }
