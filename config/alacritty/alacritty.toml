@@ -1,0 +1,31 @@
+working_directory = "C:\\Users\\pimentma"
+live_config_reload = true
+shell = "pwsh"
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+title = "Alacritty"
+dynamic_padding = true
+opacity = 0.95
+blur = true
+
+[scrolling]
+history = 10000 # Lines of CLI history.
+multiplier = 3  # Lines scrolled at a time.
+
+[font]
+normal = { family = "Cascadia Code", style = "Regular" }
+bold = { family = "Cascadia Code", style = "Bold" }
+italic = { family = "Cascadia Code", style = "Italic" }
+bold_italic = { family = "Cascadia Code", style = "Bold" }
+size = 11
+
+[colors.primary]
+foreground = "#f8f8f2"
+background = "#282a36"
+# bright_foreground = "#f8f8f2"
+# draw_bold_text_with_bright_colors = true
+
+# [keyboard]
