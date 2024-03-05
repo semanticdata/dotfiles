@@ -9,42 +9,42 @@
 
 Opinionated compilation of configuration files and other loosely related items.
 
-## Contents
+## 📃 Contents
 
 <!-- <details>
 <summary>Show/Hide</summary> -->
 
 - [⚙ .dotfiles](#-dotfiles)
-  - [Contents](#contents)
-  - [Code Partials](#code-partials)
+  - [📃 Contents](#-contents)
+  - [👩‍💻 Code Partials](#-code-partials)
     - [HTML](#html)
     - [CSS](#css)
-  - [GitHub](#github)
-  - [Badges](#badges)
+  - [👔 GitHub](#-github)
+  - [📛 Badges](#-badges)
     - [Website Repository](#website-repository)
     - [Firefox Extension Repository](#firefox-extension-repository)
     - [Brands](#brands)
-  - [Firefox](#firefox)
+  - [🦊 Firefox](#-firefox)
     - [Add Style to Firefox](#add-style-to-firefox)
     - [Add Style to Sidebery](#add-style-to-sidebery)
     - [Other Notes](#other-notes)
     - [Recommended Config Settings](#recommended-config-settings)
-  - [Obsidian.md](#obsidianmd)
+  - [💜 Obsidian.md](#-obsidianmd)
     - [Obsidian Publisher → GitHub](#obsidian-publisher--github)
-  - [NeoVim](#neovim)
+  - [🎒 NeoVim](#-neovim)
     - [Screenshots](#screenshots)
     - [Keybindings](#keybindings)
     - [Plugins](#plugins)
-  - [Color Palettes](#color-palettes)
-  - [ESLint and Prettier](#eslint-and-prettier)
-  - [Reporting Issues](#reporting-issues)
-  - [Contributing](#contributing)
-  - [Acknowledgements and Attributions](#acknowledgements-and-attributions)
-  - [License](#license)
+  - [🌈 Color Palettes](#-color-palettes)
+  - [🧹 ESLint and Prettier](#-eslint-and-prettier)
+  - [❓ Reporting Issues](#-reporting-issues)
+  - [🤝 Contributing](#-contributing)
+  - [❤ Acknowledgements and Attributions](#-acknowledgements-and-attributions)
+  - [© License](#-license)
 
 <!-- </details> -->
 
-## Code Partials
+## 👩‍💻 Code Partials
 
 Within the [partials/](partials/) folder you can find standalone CSS snippets, and independent HTML with CSS files.
 
@@ -75,7 +75,7 @@ Within the [partials/](partials/) folder you can find standalone CSS snippets, a
   - SVG Icons
 - Variables (scss)
 
-## GitHub
+## 👔 GitHub
 
 - [.gitattributes](.gitattributes)
 - [.gitignore](.gitignore)
@@ -93,7 +93,7 @@ git remote add upstream <original-repo>.git
 git pull upstream main 
 ```
 
-## Badges
+## 📛 Badges
 
 ### Website Repository
 
@@ -162,7 +162,7 @@ git pull upstream main
 
 ![GitHub Sponsor](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)
 
-## Firefox
+## 🦊 Firefox
 
 ### Add Style to Firefox
 
@@ -208,7 +208,7 @@ git pull upstream main
 - Disable add-on recommendations
 `extensions.htmlaboutaddons.recommendations.enabled` `false`
 
-## Obsidian.md
+## 💜 Obsidian.md
 
 Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-starter-vault) to get you started with the app.
 
@@ -216,7 +216,7 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 
 [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) helps you to publish your notes on a preconfigured GitHub repository from your Obsidian vault. Check out my [configuration](config/obsidian/obsidian-publisher.json).
 
-## NeoVim
+## 🎒 NeoVim
 
 **Configuration** → [init.lua](config/nvim/init.lua)
 
@@ -331,7 +331,7 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 
 </details>
 
-## Color Palettes
+## 🌈 Color Palettes
 
 <details>
  <summary>Show/Hide</summary>
@@ -340,7 +340,7 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 
 </details>
 
-## ESLint and Prettier
+## 🧹 ESLint and Prettier
 
 - [Awesome ESLint](https://github.com/dustinspecker/awesome-eslint)
 - [Markdown](https://github.com/eslint/eslint-plugin-markdown)
@@ -348,23 +348,23 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 - [JSON](https://github.com/kuceb/eslint-plugin-json-format)
   - [Schema Validator](https://github.com/ota-meshi/eslint-plugin-json-schema-validator)
 
-## Reporting Issues
+## ❓ Reporting Issues
 
 We use GitHub Issues as the official bug tracker for this repository. Please
 search [existing issues](https://github.com/semanticdata/dotfiles/issues). It’s possible someone has already reported the same problem.
 
 If your problem or idea is not addressed yet, [open a new issue](https://github.com/semanticdata/dotfiles/issues/new).
 
-## Contributing
+## 🤝 Contributing
 
 We'd love your help! Please see [CONTRIBUTING](.github/CONTRIBUTING.md) to learn about the kinds of contributions we're looking for.
 
 Please read and be aware of the [Code of Conduct](.github/CODE_OF_CONDUCT.md) before conttributing.
 
-## Acknowledgements and Attributions
+## ❤ Acknowledgements and Attributions
 
 The icons used thorought my projects come from [UXWing](https://uxwing.com/license/), [Remix Icon](https://remixicon.com/license/), and/or [Lucide](https://lucide.dev/license/). These are kindly provided under different licenses. Please visit their sites to learn more.
 
-## License
+## © License
 
 Source code in this repository is available under the [MIT License](LICENSE). You are free to use this code however you like. That said, some acknowledgement would be well received.
