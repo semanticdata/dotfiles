@@ -28,13 +28,13 @@ Opinionated compilation of configuration files and other loosely related items.
     - [Add Style to Firefox](#add-style-to-firefox)
     - [Add Style to Sidebery](#add-style-to-sidebery)
     - [Other Notes](#other-notes)
-    - [Recommended Config Settings](#recommended-config-settings)
+    - [👍 Recommended Config Settings](#-recommended-config-settings)
   - [💜 Obsidian.md](#-obsidianmd)
-    - [Obsidian Publisher → GitHub](#obsidian-publisher--github)
+    - [📢 Obsidian Publisher → GitHub](#-obsidian-publisher--github)
   - [🎒 NeoVim](#-neovim)
-    - [Screenshots](#screenshots)
-    - [Keybindings](#keybindings)
-    - [Plugins](#plugins)
+    - [🖼 Screenshots](#-screenshots)
+    - [🎹 Keybindings](#-keybindings)
+    - [🔌 Plugins](#-plugins)
   - [🌈 Color Palettes](#-color-palettes)
   - [🧹 ESLint and Prettier](#-eslint-and-prettier)
   - [❓ Reporting Issues](#-reporting-issues)
@@ -191,7 +191,7 @@ git pull upstream main
 - If you need window control buttons - unlock code `Show window buttons - + x`
 - If you need an interface in window mode - block the code `Hide interface in window mode`
 
-### Recommended Config Settings
+### 👍 Recommended Config Settings
 
 - Opening a bookmark in a new tab
 `browser.tabs.loadBookmarksInTabs` `true`
@@ -212,7 +212,7 @@ git pull upstream main
 
 Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-starter-vault) to get you started with the app.
 
-### Obsidian Publisher → GitHub
+### 📢 Obsidian Publisher → GitHub
 
 [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) helps you to publish your notes on a preconfigured GitHub repository from your Obsidian vault. Check out my [configuration](config/obsidian/obsidian-publisher.json).
 
@@ -222,7 +222,7 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 
 **Sync from CLI** → `nvim --headless "+Lazy! sync" +qa`
 
-### Screenshots
+### 🖼 Screenshots
 
 <details>
 <summary>Show/Hide</summary>
@@ -236,7 +236,7 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 
 </details>
 
-### Keybindings
+### 🎹 Keybindings
 
 <details>
 <summary>Show/Hide</summary>
@@ -301,7 +301,7 @@ Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-s
 
 </details>
 
-### Plugins
+### 🔌 Plugins
 
 <details>
 <summary>Show/Hide</summary>
