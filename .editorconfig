@@ -9,4 +9,4 @@ trim_trailing_whitespace = false
 
 [*.yml,*.yaml,*.vim]
 indent_style = space
-indent_size = 2
+indent_size = 4

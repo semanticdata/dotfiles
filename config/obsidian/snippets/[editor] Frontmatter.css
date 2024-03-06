@@ -6,11 +6,10 @@
 
 .cm-s-obsidian .cm-def:nth-of-type(1) {
   /* both --- */
-  /* font-size:50%; */
+  font-size: 50%;
 }
 .cm-s-obsidian .cm-line:nth-of-type(1) .cm-def {
   /* first --- */
-  /* background:blue; */
   color: var(--blockquote-color);
 }
 .cm-s-obsidian .cm-line:nth-of-type(1) ~ .cm-line .cm-def {
@@ -22,13 +21,12 @@
   font-size: 75%;
 }
 .cm-s-obsidian span.cm-meta {
-  /* opacity:0.5 */
+  opacity: 0.6;
 }
 
 /* Editor: Override Syntax Highlighter Frontmatter styles */
-
 .cm-s-obsidian .cm-line .cm-hmd-frontmatter.cm-atom {
-  color: var(--text-normal);
+  /* color: var(--text-normal); */
 }
 .cm-s-obsidian .cm-line .cm-hmd-frontmatter ~ .cm-hmd-frontmatter {
   color: var(--blockquote-color);

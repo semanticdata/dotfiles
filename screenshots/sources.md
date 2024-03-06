@@ -1,3 +1,3 @@
 ## Fancy Blockquote Style
 
-source: <https://codepen.io/poopsplat/pen/pvYRXy>
+Source: <https://codepen.io/poopsplat/pen/pvYRXy>

@@ -1,6 +1,4 @@
-Used in Zola sites.
-
-```css
+<style>
 details {
   border: 1px solid #aaa;
   border-radius: 4px;
@@ -21,9 +19,8 @@ details[open] summary {
   border-bottom: 1px solid #aaa;
   margin-bottom: 0.5em;
 }
-```
+</style>
 
-```html
 {% if page.toc %}
 <details open>
 {# <details> #}
@@ -58,4 +55,3 @@ details[open] summary {
   </ul>
 </details>
 {% endif %}
-```

@@ -1,0 +1,13 @@
+/* Reduce statusbar height */
+div.status-bar {
+  height: 2.1rem;
+}
+/* reduce size volume track */
+div.soundscapesroot-volumeIcons + input {
+  background: darkgreen;
+  width: 4rem;
+}
+/* Capitalize the current playlist */
+div.soundscapesroot {
+  text-transform: capitalize;
+}
