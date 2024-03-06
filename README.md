@@ -20,6 +20,7 @@ Opinionated compilation of configuration files and other loosely related items.
     - [HTML](#html)
     - [CSS](#css)
   - [👔 GitHub](#-github)
+    - [Helpful Commands](#helpful-commands)
   - [📛 Badges](#-badges)
     - [Website Repository](#website-repository)
     - [Firefox Extension Repository](#firefox-extension-repository)
@@ -30,7 +31,6 @@ Opinionated compilation of configuration files and other loosely related items.
     - [Other Notes](#other-notes)
     - [👍 Recommended Config Settings](#-recommended-config-settings)
   - [💜 Obsidian.md](#-obsidianmd)
-    - [📢 Obsidian Publisher → GitHub](#-obsidian-publisher--github)
   - [🎒 NeoVim](#-neovim)
     - [🖼 Screenshots](#-screenshots)
     - [🎹 Keybindings](#-keybindings)
@@ -50,16 +50,10 @@ Within the [partials/](partials/) folder you can find standalone CSS snippets, a
 
 ### HTML
 
-- Accordion
-- Avatar
 - Callout Timeline
 - Card Tabs
-- Card
 - Color Swatch
-- Cover Generator
 - Fancy Blockquotes
-- Head
-- Timeline
 - Typewriter Effect
 
 ### CSS
@@ -81,15 +75,13 @@ Within the [partials/](partials/) folder you can find standalone CSS snippets, a
 - [.gitignore](.gitignore)
 - [.gitconfig](.gitconfig)
 
-**Add original repo as Upstream Remote:**
+### Helpful Commands
 
-```bash
+```sh
+# Add original repo as Upstream Remote
 git remote add upstream <original-repo>.git
-```
 
-**Update your fork:**
-
-```bash
+# Update your fork
 git pull upstream main 
 ```
 
@@ -166,18 +158,16 @@ git pull upstream main
 
 ### Add Style to Firefox
 
-1. In about:config enable pref toolkit.legacyUserProfileCustomizations.stylesheets
-2. Open about:support
+1. In [about:config](about:config) enable preference `toolkit.legacyUserProfileCustomizations.stylesheets`
+2. Open [about:support](about:support)
 3. Click on "Profile Folder" -> "Open Folder"
 4. Create a sub-folder named "chrome"
-5. Change into the new folder
-6. Add files "userChrome.css" "userContent.css"
-7. Restart Firefox
-8. In Customize... :
-
-- Select Default theme. The color scheme depends on the OS
-- Select Compact icons
-- Drag Bookmarks Toolbar Items to the left of the address bar. Disable Bookmarks Toolbar
+5. Add files "userChrome.css" "userContent.css"
+6. Restart Firefox
+7. In Customize... :
+   1. Select Default theme. The color scheme depends on the OS
+   2. Select Compact icons
+   3. Drag Bookmarks Toolbar Items to the left of the address bar. Disable Bookmarks Toolbar
 
 ### Add Style to Sidebery
 
@@ -193,26 +183,24 @@ git pull upstream main
 
 ### 👍 Recommended Config Settings
 
-- Opening a bookmark in a new tab
-`browser.tabs.loadBookmarksInTabs` `true`
-- Open tabs to the right of the current one
-`browser.tabs.insertAfterCurrent` `true`
-- Scroll step
-`mousewheel.min_line_scroll_amount` `25`
-- Smoothness of scrolling
-`general.smoothScroll.mouseWheel.durationMaxMS` `380`
-- Number of recently closed tabs
-`browser.sessionstore.max_tabs_undo` `250`
-- Disable warning when going to full screen mode
-`full-screen-api.warning.timeout` `0`
-- Disable add-on recommendations
-`extensions.htmlaboutaddons.recommendations.enabled` `false`
+- Opening a bookmark in a new tab  
+`browser.tabs.loadBookmarksInTabs = true`
+- Open tabs to the right of the current one  
+`browser.tabs.insertAfterCurrent = true`
+- Scroll step  
+`mousewheel.min_line_scroll_amount = 25`
+- Smoothness of scrolling  
+`general.smoothScroll.mouseWheel.durationMaxMS = 380`
+- Number of recently closed tabs  
+`browser.sessionstore.max_tabs_undo = 250`
+- Disable warning when going to full screen mode  
+`full-screen-api.warning.timeout = 0`
+- Disable add-on recommendations  
+`extensions.htmlaboutaddons.recommendations.enabled = false`
 
 ## 💜 Obsidian.md
 
 Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-starter-vault) to get you started with the app.
-
-### 📢 Obsidian Publisher → GitHub
 
 [Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) helps you to publish your notes on a preconfigured GitHub repository from your Obsidian vault. Check out my [configuration](config/obsidian/obsidian-publisher.json).
 
