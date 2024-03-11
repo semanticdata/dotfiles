@@ -17,6 +17,7 @@
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
   - [Usage](#usage)
+  - [Testing](#testing)
   - [Useful Commands](#useful-commands)
   - [Changelog](#changelog)
   - [Roadmap](#roadmap)
@@ -47,6 +48,19 @@ Full description of the project:
 ## Usage
 
 Instructions for how to configure, run, and use the project. For example, you can include the commands needed to install and start the development environment or any other useful and important commands. Screenshots can be included as well.
+
+Look for more information in the [Documentation]
+
+## Testing
+
+Any unit or integration tests people can run to assure that everything’s working as expected? Any frameworks or commands that are needed here? And are there any tests in your deployment pipeline that ensure that no errors make it into the live site?
+
+Also include the commands needed to run any tests:
+
+```sh
+# Run test(s)
+npm run test
+```
 
 ## Useful Commands
 
