@@ -8,10 +8,10 @@
 ![last commit](https://img.shields.io/github/last-commit/semanticdata/ximena)
 ![is website up?](https://img.shields.io/website/https/semanticdata.github.io/ximena.svg)
 
-## Contents
+## Table of Contents
 
 - [Project Name](#project-name)
-  - [Contents](#contents)
+  - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Getting Started](#getting-started)
     - [Prerequuisites](#prerequuisites)
