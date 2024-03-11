@@ -53,7 +53,9 @@ Look for more information in the [Documentation]
 
 ## Testing
 
-Any unit or integration tests people can run to assure that everything’s working as expected? Any frameworks or commands that are needed here? And are there any tests in your deployment pipeline that ensure that no errors make it into the live site?
+- Any unit or integration tests people can run to assure that everything’s working as expected?
+- Any frameworks or commands that are needed here?
+- Are there any tests in your deployment pipeline that ensure that no errors make it into the live site?
 
 Also include the commands needed to run any tests:
 
