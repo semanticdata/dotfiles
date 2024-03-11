@@ -20,10 +20,10 @@
   - [Testing](#testing)
   - [Deployment](#deployment)
   - [Useful Commands](#useful-commands)
+  - [Plugins](#plugins)
   - [Changelog](#changelog)
   - [Roadmap](#roadmap)
-  - [Plugins](#plugins)
-  - [Acknowledgments](#acknowledgments)
+  - [❤ Acknowledgments](#-acknowledgments)
   - [© License](#-license)
 
 ## Description
@@ -92,6 +92,10 @@ npm run format
 
 For more details take a look at [package.json](package.json).
 
+## Plugins
+
+- [eleventy-sass](https://www.npmjs.com/package/eleventy-sass)
+
 ## Changelog
 
 We use [Semantic Versioning](https://semver.org/) for releases.
@@ -121,11 +125,7 @@ We use [Semantic Versioning](https://semver.org/) for releases.
 - [ ] Sitemap
 - [ ] robots.txt
 
-## Plugins
-
-- [eleventy-sass](https://www.npmjs.com/package/eleventy-sass)
-
-## Acknowledgments
+## ❤ Acknowledgments
 
 Thanks to these amazing people:
 
