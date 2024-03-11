@@ -14,7 +14,8 @@
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [Getting Started](#getting-started)
-    - [Prerequuisites](#prerequuisites)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
   - [Usage](#usage)
   - [Useful Commands](#useful-commands)
   - [Changelog](#changelog)
@@ -35,11 +36,13 @@ Full description of the project:
 
 ## Getting Started
 
-### Prerequuisites
+### Prerequisites
 
 - You need this
 - And you need this
 - Oh, and don't forget this
+
+### Installation
 
 ## Usage
 
