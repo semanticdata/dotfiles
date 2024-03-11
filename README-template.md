@@ -69,6 +69,8 @@ npm run test
 
 Instructions for how to deploy the project to a production environment, including any server requirements and commands used. And, in case you are using a CI/CD pipeline, for example, how do any automated processes work? What are the most important branches? Do they trigger any pipelines?
 
+[GitHub Pages]() - [Vercel]() - [Netlify]() - [Cloudflare Pages]()
+
 ## Useful Commands
 
 ```sh
