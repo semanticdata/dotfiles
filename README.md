@@ -72,7 +72,9 @@ Within the [partials/](partials/) folder you can find standalone CSS snippets, a
 
 ### Content Security Policy
 
-You can insert http headers using `vercel.json` file in the root of your repository.
+You can insert [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) using a [vercel.json](vercel.json) file in the root of your repository.
+
+You can add a [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) using the snippet below in you site's `<head>`.
 
 ```html
 <meta http-equiv='Content-Security-Policy' content="default-src 'self'; script-src 'strict-dynamic' 'nonce-rAnd0m123' 'unsafe-inline' http: https:; object-src 'none'; base-uri 'none'; require-trusted-types-for 'script'; report-uri https://csp.example.com; img-src 'self'; style-src 'self';">
