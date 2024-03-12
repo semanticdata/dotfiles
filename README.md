@@ -19,6 +19,7 @@ Opinionated compilation of configuration files and other loosely related items.
   - [👩‍💻 Code Partials](#-code-partials)
     - [HTML](#html)
     - [CSS](#css)
+    - [Content Security Policy](#content-security-policy)
   - [👔 GitHub](#-github)
     - [Helpful Commands](#helpful-commands)
   - [📛 Badges](#-badges)
@@ -68,6 +69,14 @@ Within the [partials/](partials/) folder you can find standalone CSS snippets, a
   - Container (wrapper)
   - SVG Icons
 - Variables (scss)
+
+### Content Security Policy
+
+You can insert http headers using `vercel.json` file in the root of your repository.
+
+```html
+<meta http-equiv='Content-Security-Policy' content="default-src 'self'; script-src 'strict-dynamic' 'nonce-rAnd0m123' 'unsafe-inline' http: https:; object-src 'none'; base-uri 'none'; require-trusted-types-for 'script'; report-uri https://csp.example.com; img-src 'self'; style-src 'self';">
+```
 
 ## 👔 GitHub
 
