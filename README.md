@@ -17,25 +17,11 @@ Opinionated compilation of configuration files and other loosely related items.
 - [⚙ .dotfiles](#-dotfiles)
   - [📃 Contents](#-contents)
   - [👩‍💻 Code Partials](#-code-partials)
-    - [HTML](#html)
-    - [CSS](#css)
-    - [Content Security Policy](#content-security-policy)
   - [👔 GitHub](#-github)
-    - [Helpful Commands](#helpful-commands)
   - [📛 Badges](#-badges)
-    - [Website Repository](#website-repository)
-    - [Firefox Extension Repository](#firefox-extension-repository)
-    - [Brands](#brands)
   - [🦊 Firefox](#-firefox)
-    - [Add Style to Firefox](#add-style-to-firefox)
-    - [Add Style to Sidebery](#add-style-to-sidebery)
-    - [Other Notes](#other-notes)
-    - [👍 Recommended Config Settings](#-recommended-config-settings)
   - [💜 Obsidian.md](#-obsidianmd)
   - [🎒 NeoVim](#-neovim)
-    - [🖼 Screenshots](#-screenshots)
-    - [🎹 Keybindings](#-keybindings)
-    - [🔌 Plugins](#-plugins)
   - [🌈 Color Palettes](#-color-palettes)
   - [🧹 ESLint and Prettier](#-eslint-and-prettier)
   - [❓ Reporting Issues](#-reporting-issues)
@@ -47,7 +33,7 @@ Opinionated compilation of configuration files and other loosely related items.
 
 ## 👩‍💻 Code Partials
 
-Within the [partials/](partials/) folder you can find standalone CSS snippets, and independent HTML with CSS files.
+Within the [partials](partials/) folder you can find standalone CSS snippets, and independent HTML with CSS files.
 
 ### HTML
 
