@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: 'Something about this repo isn't working the way you expect.'
+about: "Something about this repo isn't working the way you expect."
 title: ''
 labels: bug
 assignees: 'semanticdata'
@@ -12,9 +12,9 @@ A clear and concise description of what the bug is.
 **To Reproduce**
 Steps to reproduce the behavior:
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
+1. Go to '…'
+2. Click on '….'
+3. Scroll down to '….'
 4. See error
 
 **Expected behavior**
