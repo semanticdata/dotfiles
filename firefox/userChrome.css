@@ -95,8 +95,8 @@ toolbarbutton[open="true"] {
 }
 
 #sidebar-box {
-  min-width: 300px !important;
-  max-width: 600px !important;
+  min-width: 200px !important;
+  max-width: 800px !important;
   min-height: unset !important;
   max-height: unset !important;
 }
