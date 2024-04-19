@@ -9,13 +9,10 @@
 
 Opinionated compilation of configuration files and other loosely related items.
 
-## 📃 Contents
-
-<!-- <details>
-<summary>Show/Hide</summary> -->
+## 📃 Table of Contents
 
 - [⚙ .dotfiles](#-dotfiles)
-  - [📃 Contents](#-contents)
+  - [📃 Table of Contents](#-table-of-contents)
   - [👩‍💻 Code Partials](#-code-partials)
   - [👔 GitHub](#-github)
   - [📛 Badges](#-badges)
@@ -28,8 +25,6 @@ Opinionated compilation of configuration files and other loosely related items.
   - [🤝 Contributing](#-contributing)
   - [❤ Acknowledgements and Attributions](#-acknowledgements-and-attributions)
   - [© License](#-license)
-
-<!-- </details> -->
 
 ## 👩‍💻 Code Partials
 
