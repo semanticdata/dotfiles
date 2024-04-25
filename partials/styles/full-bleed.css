@@ -1,6 +1,0 @@
-/* Source: <https://piccalil.li/tutorial/creating-a-full-bleed-css-utility/> */
-
-.full-bleed {
-	width: 100vw;
-	margin-left: calc(50% - 50vw);
-}

@@ -7,13 +7,12 @@
   <img src="https://img.shields.io/github/last-commit/semanticdata/dotfiles" />
 </p>
 
-Opinionated compilation of configuration files and other loosely related items.
+Compilation of configuration files and other loosely related items.
 
-## 📃 Table of Contents
+## 📑 Table of Contents
 
 - [⚙ .dotfiles](#-dotfiles)
-  - [📃 Table of Contents](#-table-of-contents)
-  - [👩‍💻 Code Partials](#-code-partials)
+  - [📑 Table of Contents](#-table-of-contents)
   - [👔 GitHub](#-github)
   - [📛 Badges](#-badges)
   - [🦊 Firefox](#-firefox)
@@ -22,50 +21,12 @@ Opinionated compilation of configuration files and other loosely related items.
   - [🌈 Color Palettes](#-color-palettes)
   - [🧹 ESLint and Prettier](#-eslint-and-prettier)
   - [❓ Reporting Issues](#-reporting-issues)
-  - [🤝 Contributing](#-contributing)
-  - [❤ Acknowledgements and Attributions](#-acknowledgements-and-attributions)
   - [© License](#-license)
-
-## 👩‍💻 Code Partials
-
-Within the [partials](partials/) folder you can find standalone CSS snippets, and independent HTML with CSS files.
-
-### HTML
-
-- Callout Timeline
-- Card Tabs
-- Color Swatch
-- Fancy Blockquotes
-- Typewriter Effect
-
-### CSS
-
-- Bearblog
-- Box Shadow
-- Code
-- Full Bleed
-- Normalize
-- Table
-- Utilities
-  - Container (wrapper)
-  - SVG Icons
-- Variables (scss)
-
-### Content Security Policy
-
-You can insert [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) using a [vercel.json](vercel.json) file in the root of your repository.
-
-You can add a [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) using the snippet below in you site's `<head>`.
-
-```html
-<meta http-equiv='Content-Security-Policy' content="default-src 'self'; script-src 'strict-dynamic' 'nonce-rAnd0m123' 'unsafe-inline' http: https:; object-src 'none'; base-uri 'none'; require-trusted-types-for 'script'; report-uri https://csp.example.com; img-src 'self'; style-src 'self';">
-```
 
 ## 👔 GitHub
 
 - [.gitattributes](.gitattributes)
 - [.gitignore](.gitignore)
-- [.gitconfig](.gitconfig)
 
 ### Helpful Commands
 
@@ -193,8 +154,6 @@ git pull upstream main
 ## 💜 Obsidian.md
 
 Check out my [Obsidian Starter Vault](https://github.com/semanticdata/obsidian-starter-vault) to get you started with the app.
-
-[Obsidian Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher) helps you to publish your notes on a preconfigured GitHub repository from your Obsidian vault. Check out my [configuration](config/obsidian/obsidian-publisher.json).
 
 ## 🎒 NeoVim
 
@@ -335,16 +294,6 @@ search [existing issues](https://github.com/semanticdata/dotfiles/issues). It’
 
 If your problem or idea is not addressed yet, [open a new issue](https://github.com/semanticdata/dotfiles/issues/new).
 
-## 🤝 Contributing
-
-We'd love your help! Please see [CONTRIBUTING](.github/CONTRIBUTING.md) to learn about the kinds of contributions we're looking for.
-
-Please read and be aware of the [Code of Conduct](.github/CODE_OF_CONDUCT.md) before conttributing.
-
-## ❤ Acknowledgements and Attributions
-
-The icons used thorought my projects come from [UXWing](https://uxwing.com/license/), [Remix Icon](https://remixicon.com/license/), and/or [Lucide](https://lucide.dev/license/). These are kindly provided under different licenses. Please visit their sites to learn more.
-
 ## © License
 
-Source code in this repository is available under the [MIT License](LICENSE). You are free to use this code however you like. That said, some acknowledgement would be well received.
+Source code in this repository is available under the [MIT License](LICENSE).

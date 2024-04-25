@@ -1,4 +1,4 @@
-# Automatically generated folder view items
+# Core ignore list
 .DS_Store
 Desktop.ini
 # Thumbnail cache files
@@ -6,3 +6,11 @@ Desktop.ini
 Thumbs.db
 # KDE directory preferences
 .directory
+# Dependencies
+node_modules
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+# environment variables
+.env
+.env.production

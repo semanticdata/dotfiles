@@ -1,21 +1,35 @@
 {
-  "editor.wrappingIndent": "indent",
-  "editor.overviewRulerBorder": false,
   "editor.lineHeight": 24,
+  "editor.overviewRulerBorder": false,
+  "editor.wrappingIndent": "indent",
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "peacock.color": "#322549",
   "workbench.colorTheme": "Aura Soft Dark",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#49366b",
+    "activityBar.background": "#49366b",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#000000",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#49366b",
+    "statusBar.background": "#322549",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#49366b",
+    "statusBarItem.remoteBackground": "#322549",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#322549",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#32254999",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
   "[markdown]": {
     "editor.quickSuggestions": {
       "comments": "on",
       "strings": "on",
       "other": "on"
     }
-  },
-  "git.enableSmartCommit": true,
-  "git.postCommitCommand": "sync",
-  "files.exclude": {
-    "**/node_modules": true
-  },
-  "files.watcherExclude": {
-    "**/node_modules": true
-  },
+  }
 }

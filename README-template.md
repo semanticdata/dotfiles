@@ -1,4 +1,4 @@
-# Project Name
+# 🎲 Project Name
 
 > Short description of the project.
 
@@ -8,25 +8,23 @@
 ![last commit](https://img.shields.io/github/last-commit/semanticdata/ximena)
 ![is website up?](https://img.shields.io/website/https/semanticdata.github.io/ximena.svg)
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Project Name](#project-name)
-  - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-  - [Usage](#usage)
-  - [Testing](#testing)
+- [🎲 Project Name](#-project-name)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [📄 Description](#-description)
+  - [🚀 Getting Started](#-getting-started)
+  - [⚙ Usage](#-usage)
+  - [🧪 Testing](#-testing)
   - [Deployment](#deployment)
   - [Useful Commands](#useful-commands)
-  - [Plugins](#plugins)
+  - [🔌 Plugins](#-plugins)
   - [Changelog](#changelog)
-  - [Roadmap](#roadmap)
+  - [🗺 Roadmap](#-roadmap)
   - [❤ Acknowledgments](#-acknowledgments)
   - [© License](#-license)
 
-## Description
+## 📄 Description
 
 Full description of the project:
 
@@ -36,23 +34,23 @@ Full description of the project:
 - What problem does it solve?
 - Who is it for?
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- You need this
-- And you need this
-- Oh, and don't forget this
+- You need this item
+- And you need this item
+- Oh, and don't forget this item
 
 ### Installation
 
-## Usage
+## ⚙ Usage
 
-Instructions for how to configure, run, and use the project. For example, you can include the commands needed to install and start the development environment or any other useful and important commands. Screenshots can be included as well.
+Instructions for how to configure, run, and use the project. You can include the commands needed to install and start the development environment or any other useful and important commands. _Screenshots_ can be included as well.
 
-Look for more information in the [Documentation]
+Look for more information in the [Documentation].
 
-## Testing
+## 🧪 Testing
 
 - Any unit or integration tests people can run to assure that everything’s working as expected?
 - Any frameworks or commands that are needed here?
@@ -92,9 +90,10 @@ npm run format
 
 For more details take a look at [package.json](package.json).
 
-## Plugins
+## 🔌 Plugins
 
-- [eleventy-sass](https://www.npmjs.com/package/eleventy-sass)
+- Plugin 1
+- Plugin 2
 
 ## Changelog
 
@@ -105,38 +104,22 @@ We use [Semantic Versioning](https://semver.org/) for releases.
   - CHANGE: Rename `foo()` to `bar()`
   - FIX: Crash when calling `pleasedonotcrash()`
 - 0.0.1
-  - Work in progress
+  - Initial commit
 
-## Roadmap
+## 🗺 Roadmap
 
-- [x] Wikilinks
-- [x] [TailwindCSS](https://tailwindcss.com/)
-- [x] [daisyUI](https://daisyui.com/)
-- [x] Blog section
-- [x] Notes section
-- [x] Setup Prettier
-- [x] CSS/Sass post-processing with [PostCSS](https://postcss.org/) (incl. [Autoprefixer](https://github.com/postcss/autoprefixer) and [cssnano](https://github.com/cssnano/cssnano))
-- [ ] RSS feed
-- [ ] Dark mode
-- [ ] Theme toggle
-- [ ] Backlinks
-- [ ] Fluid typography (w/ [Utopia.fyi](https://utopia.fyi/))
-- [ ] Syntax highlighting
-- [ ] Sitemap
-- [ ] robots.txt
+- [x] Completed Change 1
+- [x] Completed Change 2
+- [ ] Incomplete Roadmap Item 1
+- [ ] Incomplete Roadmap Item 2
 
 ## ❤ Acknowledgments
 
-Thanks to these amazing people:
+Thanks to these amazing people and their projects:
 
-- Person A – [Website]
-
-Inspirations:
-
-- Project A – [Repository]
+- [Person] – [Website]
+- [Project] - [Website]
 
 ## © License
 
-© 2024 Miguel Pimentel • [MIT License](LICENSE)
-
-<!-- https://github.com/matthiasott/README-template -->
+This code is available under the [MIT License](LICENSE).
